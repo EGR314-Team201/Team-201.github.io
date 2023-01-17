@@ -11,5 +11,5 @@ title: Mobile Environmental Sensing
 
 ### *Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik*
 
-ICC2 Checkoff
+ICC2 Checkoff:
 Aiden Lynch
