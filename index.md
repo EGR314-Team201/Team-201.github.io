@@ -10,3 +10,6 @@ title: Mobile Environmental Sensing
 ## EGR314 12PM Spring 2023
 
 ### *Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik*
+
+ICC2 Checkoff
+Aiden Lynch
