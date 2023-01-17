@@ -7,6 +7,3 @@ title: Mobile Environmental Sensing
 ## EGR314 12PM Spring 2023
 
 ### *Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik*
-### Rich Test
-### Glen push
-
