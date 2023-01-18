@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 ---
 title: Mobile Environmental Sensing
 ---
