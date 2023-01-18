@@ -3,6 +3,7 @@ title: Mobile Environmental Sensing
 ---
 
 <img src="https://cdn.discordapp.com/attachments/1062098040674074644/1064749238040399952/IMG_7852.jpg" alt="drawing" width="200"/>
+
 (Placeholder image for logo)
 
 # Mobile Environmental Sensing
@@ -19,6 +20,3 @@ Finnton Wentworth
 
 ICC2 Checkoff:
 Glen Stevens
-
-ICC2 Checkoff:
-Richard Kovalcik
