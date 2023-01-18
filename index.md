@@ -19,3 +19,6 @@ Finnton Wentworth
 
 ICC2 Checkoff:
 Glen Stevens
+
+ICC2 Checkoff:
+Richard Kovalcik
