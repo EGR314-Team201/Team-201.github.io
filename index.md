@@ -13,3 +13,6 @@ title: Mobile Environmental Sensing
 
 ICC2 Checkoff:
 Aiden Lynch
+
+ICC2 Checkoff:
+Finnton Wentworth
