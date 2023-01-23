@@ -1,4 +1,4 @@
-***
+
 
 <p align="center"><strong>ARIZONA STATE UNIVERSITY</strong></p>
 
@@ -70,6 +70,8 @@ We initiated our design ideation by generating one hundred design ideas. These i
 
 </div>
 
+</figure>
+
 <p align="center">Figure D: 100 design Ideas</p>
   
 Idea Sortation and Ranking:
@@ -82,7 +84,8 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 <img src="reportphotos/MiscConcpets.jpg" width="50%"><br>  
 
 </div>
-  
+
+</figure>
 <p align="center">Figure E: Miscellaneous</p>
 
   
