@@ -116,7 +116,7 @@ a. Understand the exact problem and try to help them come with solutions while s
 If conflict arises within our group we will talk about it first in a calm and civil manner as a team. If the problem starts to become toxic and a severe problem, conversation with the teaching team may be in order. Our goal is for that not to happen and for everyone to respect one another and come to meaningful conclusions. 
 
 ## Roles and Responsibilities
-|Role|Responsibilities|Team Member|
+|Roles|Responsibilities|Team Member|
 |--|--|--|
 |Meeting Leader|Schedules team meetings, creates and distributes an agenda for each meeting, and runs each meeting|AL|
 |Meeting Recorder|Takes minutes of each team meeting, including attendance, and records action items and to whom they are assigned|FW|
