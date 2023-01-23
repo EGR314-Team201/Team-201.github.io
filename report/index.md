@@ -2,17 +2,17 @@
 
 <p align="center"><strong>ARIZONA STATE UNIVERSITY</strong></p>
 
-<p align="center"></b>ENGINEERING 314 - DANIEL AUKES</b></p>
+<p align="center"><strong>ENGINEERING 314 - DANIEL AUKES</strong></p>
   
-<p align="center"></b>Weather Based Device Project</b></p>
+<p align="center"><strong>Weather Based Device Project</strong></p>
 
-<p align="center"></b>Team 201</b></p>
+<p align="center"><strong>Team 201</strong></p>
 
-<p align="center"></b>Aiden Lynch, Finnton Wentworth, Richard Kovalcik, Glen Stevens</b></p>
+<p align="center"><strong>Aiden Lynch, Finnton Wentworth, Richard Kovalcik, Glen Stevens</strong></p>
 
-<p align="center"></b>Submission Date: 1/23/2023</b></p>
+<p align="center"><strong>Submission Date: 1/23/2023</strong></p>
 
-<p align="center"></b>Team Organization:</b></p>
+<p align="center"><strong>Team Organization:</strong></p>
 
 The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in **Appendix A: Team Organization
 **
