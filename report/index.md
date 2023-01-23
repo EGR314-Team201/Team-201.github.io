@@ -66,7 +66,7 @@ We initiated our design ideation by generating one hundred design ideas. These i
 
 <div style="text-align: center">  
 
-<img src="reportphotos/100Concpets.jpg" width="50%"><br>  
+<img src="/reportphotos/100Concpets.jpg" width="50%"><br>  
 
 </div>
 
