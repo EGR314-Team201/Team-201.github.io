@@ -114,9 +114,17 @@ We have the balloon that will raise the device up in the sky to collect readings
 
 **Concept 2: Water Buoy**
 
+Finnton Wentworth visualized concept #2, a floating water based sensor array. The device would be able to collect a physical sample of water as well as transmitting various environmental data. 
+
+
 <p align="center">
 Figure I: Water Buoy 
 </p>
+
+Design concept #2 looks to act as a deployable water quality  and condition sensor. The user would place the buoy in a body of water to collect and transmit data based on the attached sensors. The main point of actuation is in a sample collection bay door, which sits under the surface of the water. Once the door closes, the water sample can be collected later when the device is retrieved for lab analysis.
+
+The microcontroller and batteries will be stored in a sealed chamber within the main housing of the device, with wires running out connecting to the motor, lights, and external sensors, and sealed to prevent water from damaging the electronics.. The body of the device will be constructed from some waterproof material, most likely printed PLA. One major risk of this design is damaged to the sensitive components due to moisture or water. Some inexpensive moisture control strategies would be including silica gel packets within the electronics housing. 
+
 
 **Concept 3: Drone**
 
