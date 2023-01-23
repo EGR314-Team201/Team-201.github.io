@@ -36,16 +36,53 @@ Viewing market options in weather sensor equipment allowed our team to perform b
 
 Reading user reviews with the perspective of generating project features was most important to us. Since the scope of the project was fairly undefined with the exception of budget and the overarching requirements listed for the course, the team viewed amazon reviews, looking for requested features, as well as what the users viewed as extraneous on the products we reviewed. Looking for explicitly listed needs, as well as digging deeper into the wording of the reviews to see latent needs from the users. From these reviews, we generated a list of 103 needs, as seen in **Figure A**. 
 
+<figure class="image">  
 
+<div style="text-align: center">  
+
+<img src="reportphotos/jamboard1.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/jamboard2.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
 
 <p align="center">Figure A: Full list of Generated Needs</p>
 
 From this full list, we sorted these needs into six different categories: Hardware, Software, Interactivity/User Experience, Customization, Manufacturing, and Safety. These categories were chosen based on the aspect sections we included in our Product Requirements Document which was written following the review of our sorted user needs. Shown below in **Figure B** is our sorted list for the Hardware section, and the full list of sorted needs can be found in Appendix B: User Needs and Benchmarking. 	
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/jamboard3.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
 
 <p align="center">Figure B: Hardware category of sorted user needs</p>
   
 From these sorted needs, our team ranked the needs into three separate weights, with one to three stars denoting importance. The weight of a specific need was chosen by our team, with the greatest ranking given to needs that were generated from project requirements and effective functionality, as these were non-negotiable features for our final deliverable. Without including the three star needs, our project would fail to meet stated requirements or would lack qualities that would make it a functional or usable product. Below in **Figure C** is the evolution of the Hardware section, now ranked. 
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/jamboard9.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
 
 <p align="center">Figure C: Ranked List of Hardware Needs</p>
   
