@@ -123,7 +123,7 @@ If conflict arises within our group we will talk about it first in a calm and ci
 |Assignment Leader|Coordinates the team's work on a given assignment to Canvas before the due date|GS|
 |Project Monitor|Tracks the team's progress relative to the project schedule (Gantt chart) and keeps team members apprised of deadlines and project status|RK|
 
-Signatures:
+### Signatures:
 
 Aiden Lynch
 
