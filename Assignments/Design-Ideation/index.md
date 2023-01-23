@@ -63,7 +63,9 @@ Figure 4: Concepts associated with “Weather Balloon”
 
 
 
-## Design Concept 1:
+## Design Concepts:
+
+### Design Concept 1:
 
 The first design concept is a weather balloon which can be seen in Figure 5.
 
