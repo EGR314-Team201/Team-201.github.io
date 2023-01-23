@@ -2,24 +2,13 @@
 title: Mobile Environmental Sensing
 ---
 
-# Mobile Environmental Sensing
+### Mobile Environmental Sensing
 
-<img src="https://cdn.discordapp.com/attachments/1062098040674074644/1064749238040399952/IMG_7852.jpg" alt="drawing" width="200"/>
+ASU EGR314 12PM Spring 2023
+Dr. Daniel Aukes
 
-(Placeholder image for logo)
+Team 201
 
-## EGR314 12PM Spring 2023
+<!-- %%<img src="https://cdn.discordapp.com/attachments/1062098040674074644/1064749238040399952/IMG_7852.jpg" alt="drawing" width="200"/> -->
 
-### *Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik*
-
-ICC2 Checkoff:
-Aiden Lynch
-
-ICC2 Checkoff:
-Finnton Wentworth
-
-ICC2 Checkoff:
-Glen Stevens
-
-ICC2 Checkoff:
-Richard Kovalcik
+Team Members: Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik
