@@ -66,7 +66,7 @@ We initiated our design ideation by generating one hundred design ideas. These i
 
 <div style="text-align: center">  
 
-<img src="./reportphotos/100Concpets.jpg" width="50%"><br>  
+<img src="/reportphotos/100Concepts.jpg" width="50%"><br>  
 
 </div>
 
@@ -79,7 +79,7 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-<img src="./reportphotos/MiscConcpets.jpg" width="50%"><br>  
+<img src="reportphotos/MiscConcpets.jpg" width="50%"><br>  
 
 </div>
   
@@ -138,7 +138,11 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
   
 ## Appendix A: Team Organization
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
+  
+  
 ## Appendix B: User Needs and Benchmarking
 [User Needs and Benchmarking](https://egr314-team201.github.io/Assignments/User-Needs/)
+  
+  
 ## Appendix C: Project Requirements Document
 [PRD](https://egr314-team201.github.io/Assignments/Product-Requirements/)
