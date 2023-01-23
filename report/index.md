@@ -37,6 +37,7 @@ Viewing market options in weather sensor equipment allowed our team to perform b
 Reading user reviews with the perspective of generating project features was most important to us. Since the scope of the project was fairly undefined with the exception of budget and the overarching requirements listed for the course, the team viewed amazon reviews, looking for requested features, as well as what the users viewed as extraneous on the products we reviewed. Looking for explicitly listed needs, as well as digging deeper into the wording of the reviews to see latent needs from the users. From these reviews, we generated a list of 103 needs, as seen in **Figure A**. 
 
 
+
 <p align="center">Figure A: Full list of Generated Needs</p>
 
 From this full list, we sorted these needs into six different categories: Hardware, Software, Interactivity/User Experience, Customization, Manufacturing, and Safety. These categories were chosen based on the aspect sections we included in our Product Requirements Document which was written following the review of our sorted user needs. Shown below in **Figure B** is our sorted list for the Hardware section, and the full list of sorted needs can be found in Appendix B: User Needs and Benchmarking. 	
@@ -61,14 +62,47 @@ The full PRD can be found in **Appendix C: Project Requirements Document**
 
 We initiated our design ideation by generating one hundred design ideas. These ideas can be viewed below in **Figure D.**
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/100Concpets.jpg" width="50%"><br>  
+
+</div>
+
 <p align="center">Figure D: 100 design Ideas</p>
   
 Idea Sortation and Ranking:
 Once we had generated our 100 design ideas, we proceeded to sort them into three categories. These categories being miscellaneous, weather balloon, and drone which can be viewed respectively in **Figure E**, **Figure F**, and **Figure G**. After this process, we ranked our ideas vertically from the most to least practical. A few of the aspects we looked for in practicality were ease of implementation, feasibility, and requirement satisfaction. 
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/MiscConcpets.jpg" width="50%"><br>  
+
+</div>
+  
 <p align="center">Figure E: Miscellaneous</p>
 
+  
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/WeatherBalloonConcpets.jpg" width="50%"><br>  
+
+</div>
+  
 <p align="center">Figure F: Weather Balloon</p>
+  
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/DroneConcpets.jpg" width="50%"><br>  
+
+</div>
 
 <p align="center">Figure G: Drone</p>
 
