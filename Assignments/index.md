@@ -1,3 +1,7 @@
+---
+title: Assignments
+---
+
 # Assignments
 
 Below are the list of assignments we have completed over the course of the semester
