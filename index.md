@@ -1,5 +1,5 @@
 ---
-title: Mobile Environmental Sensing
+title: EGR314
 ---
 
 ***
