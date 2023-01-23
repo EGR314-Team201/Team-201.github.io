@@ -15,6 +15,4 @@ Team Members: Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik
 
 [Assignments](https://egr314-team201.github.io/Assignments/)
 
-[Presentation 1](https://egr314-team201.github.io/Presentation1/)
-
-[Presentation 1 Test](https://www.youtube.com/embed/B-IFwF61iC0)
+[Presentation 1](https://www.youtube.com/embed/B-IFwF61iC0)
