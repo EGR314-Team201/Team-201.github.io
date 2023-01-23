@@ -12,7 +12,7 @@
 
 <p align="center"><strong>Submission Date: 1/23/2023</strong></p>
 
-<p align="center"><strong>Team Organization:</strong></p>
+**Team Organization:**
 
 The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in **Appendix A: Team Organization**
 
