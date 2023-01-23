@@ -1,7 +1,3 @@
-
-
-***
-
 ### Mobile Environmental Sensing
 
 ASU EGR314 12PM Spring 2023
