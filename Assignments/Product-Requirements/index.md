@@ -272,8 +272,12 @@ What lifespan should our device have?
 ## Milestones
 
 Checkpoint 1: 1/23/2023
+
 Checkpoint 2: 2/27/2023
+
 Checkpoint 3: 4/24/2023
+
 System Verification: 4/24/2023
+
 Project Presentation: 4/28/2023
 
