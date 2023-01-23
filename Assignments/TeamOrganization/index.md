@@ -55,12 +55,12 @@ Questions directed for one person can be communicated via text or Discord Privat
 
 *Meeting Times: MW after class until 3pm*
 
-|People|Initial|Email|Phone Number|
-|--|--|--|--|
-|Aiden|A|ajlynch5@asu.edu|773-991-1053|
-|Glen|G|gcsteve1@asu.edu|480-343-7083|
-|Finnton|F|dmwentwo@asu.edu|623-499-4445|
-|Richard|rrkovalc@asu.edu|623-388-1501|
+|People|Initial|Email|
+|--|--|--|
+|Aiden|A|ajlynch5@asu.edu|
+|Glen|G|gcsteve1@asu.edu|
+|Finnton|F|dmwentwo@asu.edu|
+|Richard|R|rrkovalc@asu.edu|
 
 ## Meeting Coordination
 1. What method will you use to remind yourselves of meetings (a shared calendar?)
