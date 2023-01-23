@@ -17,7 +17,7 @@ To view our overall Project Report that contains all of our progress so far clic
 
 [Project Report](https://egr314-team201.github.io/report/)
 
-To view our individual assignments folder click the link below (Updated 1/23/2023):
+To view our individual assignments click the link below (Updated 1/23/2023):
 
 [Assignments](https://egr314-team201.github.io/Assignments/)
 
