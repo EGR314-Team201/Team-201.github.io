@@ -11,6 +11,6 @@ Team 201
 
 Team Members: Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik
 
-[Project Report](egr314-team201.github.io/report/)
+[Project Report](https://egr314-team201.github.io/report/)
 
 [Assignments](https://egr314-team201.github.io/Assignments/)
