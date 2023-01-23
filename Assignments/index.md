@@ -1,10 +1,12 @@
 # Assignments
 
-[Team Organization](https://egr314-team201.github.io/Assignments/TeamOrganization/)
+Below are the list of assignments we have completed over the course of the semester
 
-[User Needs](https://egr314-team201.github.io/Assignments/User-Needs/)
+[Team Organization (1/13/2023)](https://egr314-team201.github.io/Assignments/TeamOrganization/)
 
-[Product Requirements](https://egr314-team201.github.io/Assignments/Product-Requirements/)
+[User Needs (1/18/2023)](https://egr314-team201.github.io/Assignments/User-Needs/)
 
-[Design Ideation](https://egr314-team201.github.io/Assignments/Design-Ideation/)
+[Product Requirements (1/18/2023)](https://egr314-team201.github.io/Assignments/Product-Requirements/)
+
+[Design Ideation (1/20/2023)](https://egr314-team201.github.io/Assignments/Design-Ideation/)
 
