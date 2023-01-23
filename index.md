@@ -6,7 +6,7 @@ title: EGR314
 
 ### Mobile Environmental Sensing
 
-ASU EGR_314 12PM Spring 2023
+ASU EGR314 12PM Spring 2023
 Dr. Daniel Aukes
 
 Team 201
