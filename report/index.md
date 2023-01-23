@@ -103,13 +103,11 @@ We initiated our design ideation by generating one hundred design ideas. These i
 
 <div style="text-align: center">  
 
-<img src="/reportphotos/100Concepts.jpg" width="50%"><br>  
+<img src="reportphotos/100Concepts.jpg" width="50%"><br>  
 
 </div>
 
 </figure>
-
-<p align="center">Figure D: 100 design Ideas</p>
   
 Idea Sortation and Ranking:
 Once we had generated our 100 design ideas, we proceeded to sort them into three categories. These categories being miscellaneous, weather balloon, and drone which can be viewed respectively in **Figure E**, **Figure F**, and **Figure G**. After this process, we ranked our ideas vertically from the most to least practical. A few of the aspects we looked for in practicality were ease of implementation, feasibility, and requirement satisfaction. 
@@ -118,11 +116,12 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-<img src="reportphotos/MiscConcpets.jpg" width="50%"><br>  
+<img src="reportphotos/MiscConcepts.jpg" width="50%"><br>  
 
 </div>
 
 </figure>
+
 <p align="center">Figure E: Miscellaneous</p>
 
   
@@ -130,9 +129,11 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-<img src="media/WeatherBalloonConcpets.jpg" width="50%"><br>  
+<img src="reportphotos/WeatherBalloonConcepts.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
   
 <p align="center">Figure F: Weather Balloon</p>
   
@@ -140,9 +141,11 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-<img src="media/DroneConcpets.jpg" width="50%"><br>  
+<img src="reportphotos/DroneConcepts.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure G: Drone</p>
 
