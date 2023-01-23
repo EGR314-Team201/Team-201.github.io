@@ -458,3 +458,258 @@ Customer Needs:
 # Benchmarking:
 ## Compile:
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard1.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard2.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+# Ordered List
+
+## Group:
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard3.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard4.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard5.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard6.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+## Rank:
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard7.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard8.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard9.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard10.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard11.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard12.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard13.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/jamboard14.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+
+
+## List:
+
+1. Height/ Altitude Sensing * (L)
+2. All the sensors should work for the lifespan of the device ** (E)
+3. Device is inexpensive to purchase *(E)
+3. Minimal Power/Battery requirements * (E)
+5. 2 Serial Sensors ***(E)
+6. Able to display the readings on the device***(E)
+7. Wi-Fi Capable Microchip *** (E)
+8. Motor Actuation***(E)
+9. Switching Voltage Regulator***(E)
+10. Sensors Need to Be Weather Based***(E)
+11. Device display able to be read in dark or bright light***(E)
+12. Contain Two Sensors***(E)
+13. Includes PIC microcontroller***(E)
+14. The device should have a remote console as well***(E)
+15. Bidirectional Motor Control***(E)
+16. Can be able to connect from away due to distance.***(E)
+17. 3.3 V as power***(E)
+18. Uses ESP32***(E)
+19. Device must send multiple types of data *** (E)
+20. Durable enough to withstand multiple uses (L)**
+21. Save battery life regardless of temperatures so difficult ones like ones in cold places will be optimal. (E) ***
+22. Device can withstand adverse conditions (L)**
+23. Easy connection and accurate GPS for location based tracking ** (L)
+24. Device has a lifespan of multiple years* (E)
+26. The data gathered must be accurate (L) ***
+27. Device transmits accurate data*** (L)
+28. Long Range of Connectivity (L) **
+29. Device notifies user of low battery life to limit errors (L) **
+30. Wifi Connection(E)***
+31. Reliable connection over wifi and internet (L)**
+32. Needs Wi-Fi capabilities not hard to set up(E)**
+33. Board-to-Web Duplex (L)*
+34. Internet connection is desired (E)**
+35. Need to have an easily accessible Wifi connection. (L)**
+36. Bluetooth connectivity is desired (E) **
+37. I2C or SPI (E) ***
+38. UART Capabilities (E) **
+39. Optimal connectivity (L) ***
+40. The app should work on multiple platforms (L) *
+41. Has alerts for battery level*(L)
+42. Alarms that alert the user if a temperature is being crossed.*(L)
+43. Need to always send alerts due to the severity of the situation.*(L)
+44. Clear and intuitive interface for external applications (L) ***
+45. Distinguishable Numbers for the different values we measure (L)**
+46. Primarily coded in MPLABX or Micropython *** (E)
+47. Have a good way to debug the system **(L)
+48. Controlled Response with Actuator*** (E)
+49. The data gathered must be accurate *** (E)
+50. Clear and updated Manual for operation(E)**
+51. Provides readouts on multiple types of data(E)**
+52. Comprehensive setup guide(L)*
+53. The device should have an easy setup(E)*
+54. Minimal Calibration Time(L)*
+55. The device is easy to install(E)*
+56. The device should have multiple mounting options(L)*
+57. Needs to be easily attachable to things(E)*
+58. Includes all needed mounting and assembly hardware(E)*
+59. Reliability is desired**(L)
+60. Display is easy to read**(L)
+61. Have alarms for just one side of the temperature spectrum*(E)
+62. Long Lifespans so customers do not have to keep buying new ones **(L)
+63. The device should have an easy setup **(E)
+64. Provides precise data**(L)
+65. Readings easy to read and understand**(L)
+66. Device integrates with other weather technology seamlessly (L) **
+67. Compatibility with Mobile devices (E) ***
+68. Wireless and can connect to an easily navigable app. (L) ***
+69. The device should have a stable connection (E) **
+70. The device should have an easy to use interface (L) **
+71. Switching between different systems of measurement (L) **
+72. Historical Data for analyzing trends (L) **
+73. Data is quickly accessible and readable (E) **
+74. The app must have a nice interface (L) **
+75. Data is quickly accessible and readable (E) **
+76. Able to access readings remotely (L) **
+77. Having Custom Ranges is important for the consumer. (L) *
+78. Customizable Alerts so that there are no spam(E)*
+79. Graphs of Historical Data are very helpful. (E)*
+80. Batteries need to be easy to switch out in case if it dies*(L)
+81. The device should have a long battery life. **(E)
+82. Assembly is clear, and if batteries are needed they are easy to install and replace **(L)
+83. The device must have a reasonable price* (E)
+84. Parts need to be easily replaceable * (L)
+85. Assembly with simple tools * (E)
+86. Minimal Assembly with clear instructions * (E)
+87. It should have minimal moving parts (E) **
+88. Weigh Less Than 5 Pounds *(L)
+89. Board 100x100 mm ***(E)
+90. Parts that can be Surface Mounted ***(E)
+91. Sustainable Manufacturing *(L)
+92. Test the device against other rain gauges **(L)
+93. Can Survive Extreme Cold *(L)
+94. Can Survive Multiple Environments (L)***
+95. Sturdy (L)***
+96. Can Survive Extreme Heat (L) **
+97. Can Survive Multiple Environments (L) **
+98. Water Proof (L) ***
+99. Outdoor sensors may need more protective than the indoor ones (L) **
+100. Checks for inaccurate readings(E)**
+101. Device is reliable even when moved or adjusted constantly(L)*
+102. Withstands a large variety of temperatures without having problems.(E)**
+103. Battery dying cannot effect the unit as a whole.(L)*
+104. It has a sturdy frame(E)*
+
