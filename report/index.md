@@ -14,8 +14,7 @@
 
 <p align="center"><strong>Team Organization:</strong></p>
 
-The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in **Appendix A: Team Organization
-**
+The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in **Appendix A: Team Organization**
 
 **Team Charter:**
 
