@@ -90,10 +90,7 @@ Customer Needs:
 * Needs to Display Accurate Humidity
 * Needs Longevity
 
-
-Search Results Link: [Link](https://www.google.com/search?client=firefox-b-1-d&q=Wifi+Thermometer)
-
-
+2. [Govee WiFi Hygrometer Thermometer 3 Pack H5151, Indoor Outdoor Wireless Temperature Humidity Sensor Monitor with Remote App Notification Alert, 2 Years Free Data Storage Export, for Home, Greenhouse](https://www.amazon.com/Govee-Hygrometer-Thermometer-H5151-Temperature/dp/B09BVLP9C5/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.14a246c3-7a62-40bf-bdd0-5ac67c2a1913%3Aamzn1.sym.14a246c3-7a62-40bf-bdd0-5ac67c2a1913&crid=13IY3UI1HSTTQ&cv_ct_cx=drone+weather+sensors&keywords=drone+weather+sensors&pd_rd_i=B09BVLP9C5&pd_rd_r=767f4d49-dabf-4095-a3a2-30b5f1662648&pd_rd_w=ID2Ay&pd_rd_wg=xIGoo&pf_rd_p=14a246c3-7a62-40bf-bdd0-5ac67c2a1913&pf_rd_r=CA9ZF9T5Q4PNEXXS9BB3&qid=1673646188&sprefix=drone+weather+senesors%2Caps%2C123&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGRjc1OFkxVVdBQU0mZW5jcnlwdGVkSWQ9QTAxNjEzOTExTUpHTEpCNFZKMFlHJmVuY3J5cHRlZEFkSWQ9QTA4MDk5ODkxWTA1SElYOEEyR1JBJndpZGdldE5hbWU9c3Bfc2VhcmNoX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
 
 <figure class="image">  
 
@@ -107,14 +104,21 @@ Search Results Link: [Link](https://www.google.com/search?client=firefox-b-1-d&q
 
 Price: $69.99
 
-2. [Govee WiFi Hygrometer Thermometer 3 Pack H5151, Indoor Outdoor Wireless Temperature Humidity Sensor Monitor with Remote App Notification Alert, 2 Years Free Data Storage Export, for Home, Greenhouse](https://www.amazon.com/Govee-Hygrometer-Thermometer-H5151-Temperature/dp/B09BVLP9C5/ref=sxin_15_pa_sp_search_thematic_sspa?content-id=amzn1.sym.14a246c3-7a62-40bf-bdd0-5ac67c2a1913%3Aamzn1.sym.14a246c3-7a62-40bf-bdd0-5ac67c2a1913&crid=13IY3UI1HSTTQ&cv_ct_cx=drone+weather+sensors&keywords=drone+weather+sensors&pd_rd_i=B09BVLP9C5&pd_rd_r=767f4d49-dabf-4095-a3a2-30b5f1662648&pd_rd_w=ID2Ay&pd_rd_wg=xIGoo&pf_rd_p=14a246c3-7a62-40bf-bdd0-5ac67c2a1913&pf_rd_r=CA9ZF9T5Q4PNEXXS9BB3&qid=1673646188&sprefix=drone+weather+senesors%2Caps%2C123&sr=1-1-a73d1c8c-2fd2-4f19-aa41-2df022bcb241-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFGRjc1OFkxVVdBQU0mZW5jcnlwdGVkSWQ9QTAxNjEzOTExTUpHTEpCNFZKMFlHJmVuY3J5cHRlZEFkSWQ9QTA4MDk5ODkxWTA1SElYOEEyR1JBJndpZGdldE5hbWU9c3Bfc2VhcmNoX3RoZW1hdGljJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)
+Vendor: Govee
 
-<figure class="image">  
+Description: Govee is a global leading smart home brand dedicated to providing personalized and fun life experiences through continuous innovations. With the help of our smart sensors and Gove Home app, you can enjoy a healthier, safer, and more convenient lifestyle
 
-<div style="text-align: center">  
+### Positive Comments
 
-<img src="media/benchmark2.jpg" width="50%"><br>  
+#### Review #1:
 
-</div>
+"I really like these thermometer/hygrometers. They are quite precise, displaying temperature and humidity to the tenth. The historical data is fantastic as well, as it's easy to look at trends over hours, days, weeks, months, or the entire year. Although I've only had them for a couple months, so no long-term experience yet. Initially, I tried one in the RV freezer, one in the RF refrigerator, and one in the RV living room. Yes, there is an "RV" trend there. We are camping out in the RV while the house is remodeled. Anyway, we wanted to monitor the temps in the freezer and fridge zone to ensure they were cooling to the right levels. And they were. And yes, the signal worked right through the refrigerator doors. The base unit was placed about 15 feet away under the dinette (cause that's where the outlet is). :) As the season progressed and it got much colder, we were more concerned with the temperatures around the freshwater tank and the underbelly area. And we were right to be concerned. The freshwater tank or the feed from the tank to the pump froze when we had the cold snap in early December (Oregon). How do I know it was the tank or tank line to the pump? Well, our RV has a feed hose with a cutoff valve right before the pump. So, I filled a bucket of water, put the feeder hose in the bucket, and ran the pump. Pressured right up and the sinks worked. So, frozen tank or feed line. Anyway, we skirted the RV with cellular foam board, put a small space heater underneath with a thermal switch, and placed the thermostats. One thermostat was hung under the frame in the now enclosed underside of the RV. One in the pump area with all the crazy water lines. And one just outside the RV hanging from an external panel. The lanyards came in handy for that. We were happy to see the underbelly temps come slowly back up above freezing. At this moment (22 Dec 22), it's 36.9 degrees in the underbelly, and 10.4 degrees just on the outside of the RV. And yes, the water unfroze, and everything works again. Yay! We carefully checked for any leaks and were happy to not find any. So, we really like the sensors. They are connected over our home network, so I can check them anywhere, anytime. The Govee app is nice and easy to use, and it's easy to add the devices. I did get one bum battery that died in the first week, but that inconsequential. The others are running strong. And they work fine with our Eneloop rechargeables. Small, precise, and wireless. Good stuff.'
 
-</figure>
+Customer Needes:
+* Provides precise data
+* storical Data for analyzing trends
+* Wireless and can connect to an easilty navigatable app.
+
+
+
+
