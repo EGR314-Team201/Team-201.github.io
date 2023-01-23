@@ -101,7 +101,6 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 
 
-**Presentation 1:**
   
 ## **Appendix A: Team Organization**
 
