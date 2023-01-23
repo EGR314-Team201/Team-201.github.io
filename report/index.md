@@ -136,8 +136,8 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 
   
-## **Appendix A: Team Organization**
+## Appendix A: Team Organization
 
-## **Appendix B: User Needs and Benchmarking**
+## Appendix B: User Needs and Benchmarking
 
-## **Appendix C: Project Requirements Document**
+## Appendix C: Project Requirements Document
