@@ -48,9 +48,9 @@ minima:
 # order as they should show up.
 #
 header_pages:
- - Home.md
- - Assignments.md
- - Report.md
+ - egr314-team201.github.io/index.md 
+ - egr314-team201.github.io/Assignments/index.md 
+ - egr314-team201.github.io/report/index.md 
 
 # Set to `true` to show excerpts on the homepage.
 #
