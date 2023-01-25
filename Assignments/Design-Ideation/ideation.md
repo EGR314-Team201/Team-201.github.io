@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Design ideation
-permalink: /Design-Ideation/
+permalink: /Assignments/Design-Ideation/
 ---
 
 # Team 201: Design Ideation
