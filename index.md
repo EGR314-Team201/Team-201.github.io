@@ -30,3 +30,9 @@ To view our individual assignments click the link below:
 To view our Checkpoint Presentations click on the video below:
 
 [Presentation 1 (1/23/2023)](https://www.youtube.com/embed/B-IFwF61iC0)
+
+<style>
+  .footer {
+    display: none;
+  }
+</style>
