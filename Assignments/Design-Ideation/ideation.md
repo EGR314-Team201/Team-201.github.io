@@ -1,3 +1,9 @@
+---
+layout: page
+title: Design ideation
+permalink:/design-ideation
+---
+
 # Team 201: Design Ideation
 ## EGR 314 
 ## 1/20/23
