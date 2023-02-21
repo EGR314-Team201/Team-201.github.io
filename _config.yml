@@ -5,7 +5,7 @@ title: EGR 314 Team 201
 # If you want to omit the line-break after the end of text, use `>-` instead.
 # Build settings
 
-theme: minima
+theme: jekyll-theme-leap-day
 
 plugins:
   - jekyll-feed
