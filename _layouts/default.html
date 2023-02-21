@@ -22,11 +22,23 @@
         <p>{{ page.description | default: site.description | default: site.github.project_tagline }}</p>
       </header>
 
-      <div id="banner">
+ <div id="banner">
         <span id="logo"></span>
 
-        <a href="{{ egr314-team201.github.io }}" class="button"><strong>Home</strong></a>
-        
+        <a href="{{ https://egr314-team201.github.io/ }}" class="button fork"><strong>Home</strong></a>
+        <a href="{{ egr314-team201.github.io/ }}" class="button fork"><strong>Home</strong></a>
+        {% if site.show_downloads %}
+          <div class="downloads">
+            <span>Downloads:</span>
+            <ul>
+              <li><a href="{{ https://egr314-team201.github.io/Assignments/ }}" class="button">Assignments</a></li>
+              <li><a href="{{ https://egr314-team201.github.io/report/ }}" class="button">Report</a></li>
+              <li><a href="{{ https://www.youtube.com/watch?v=C_jqC-kR5uQ }}" class="button">Presentation</a></li>
+              <li><a href="{{ egr314-team201.github.io/Assignments/ }}" class="button">Assignments</a></li>
+              <li><a href="{{ egr314-team201.github.io/report/ }}" class="button">Report</a></li>
+            </ul>
+          </div>
+        {% endif %}
       </div><!-- end banner -->
 
     <div class="wrapper">
