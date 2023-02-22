@@ -1,4 +1,8 @@
-# Product Requirements Document
+---
+Title: Product Requirements
+---
+
+# Product Requirements
 
 Project: Weather Sensor System
 
