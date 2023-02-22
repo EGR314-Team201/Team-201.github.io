@@ -6,7 +6,7 @@
 
 <div style="text-align: center">  
 
-<img src="media/blockdiagramfull.jpg" width="50%"><br>  
+<img src="media/blockdiagramfull.jpg" width="100%"><br>  
 
 </div>
 
