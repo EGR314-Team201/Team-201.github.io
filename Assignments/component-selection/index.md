@@ -26,7 +26,7 @@ Title: Component Selection
 |:----------:|:--------------------:|:--------------------------------------------------:|
 |image       |Low operating voltage|Very expensive|
 |Option 1    |Footprint and schematic </br> symbols provided|Possible long lead time|
-|Board Mount Humidity Sensors I2C,5 </br> %RH,SOIC-8 SMD NO FILTER,NON-COND|Wide range of operating temperatures||
+|Board Mount Humidity Sensors I2C,5 %RH,SOIC-8 SMD NO FILTER,NON-COND|Wide range of operating temperatures||
 |$18.14      |||
 |[Link to data sheet](https://www.mouser.com/datasheet/2/187/HWSC_S_A0012940693_1-3073215.pdf) ||
 
@@ -36,7 +36,7 @@ Title: Component Selection
 |:----------:|:------:|:------:|
 |image       |Low operating voltage   |Expensive |
 |Option 2          |I2C compatible| Possible long lead time|
-|Board Mount Humidity Sensors I2C </br> 4.5%RH SOIC-8 SMD non-condensing|Wide range of operating </br> temperatures|No footprint provided|
+|Board Mount Humidity Sensors I2C 4.5%RH SOIC-8 SMD non-condensing|Wide range of operating temperatures|No footprint provided|
 |$12.31|||
 |[Link to data sheet](https://www.mouser.com/datasheet/2/187/HWSC_S_A0012940586_1-3073378.pdf)|||
 
@@ -46,7 +46,7 @@ Title: Component Selection
 |:----------:|:------:|:------:|
 |image       |Low Operating Voltage   |Expensive  |
 |Option 3|I2C compatible|Possible long lead time|
-|Board Mount Humidity Sensors SOIC 8 </br>SMD w/o filter Non-condensing|wide range of operating temperatures|No filter|
+|Board Mount Humidity Sensors SOIC 8 SMD w/o filter Non-condensing|wide range of operating temperatures|No filter|
 |$13.84|Footprint providded||
 |[Link to data sheet](https://www.mouser.com/datasheet/2/187/HWSC_S_A0012940383_1-3073342.pdf)|||
 
@@ -62,7 +62,7 @@ Title: Component Selection
 |:----------:|:------:|:------:|
 |image       |Low voltage   |Relatively expensive |
 |Option 1|High accuracy for precise results|Long lead time|
-|Pressure Sensor 0.15PSI ~ 17.4PSI </br> (1kPa ~ 120kPa) Absolute 24 b 8-SMD|Wide range of working temperatures||
+|Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute 24 b 8-SMD|Wide range of working temperatures||
 |$13.30|||
 |[Link to data sheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English)|||
 
@@ -72,7 +72,7 @@ Title: Component Selection
 |:----------:|:------:|:------:|
 |image       |Small with space out prongs   |Greater voltage |
 |Option 2|Wide range of temperatures|Long lead time|
-|Temperature Sensor Digital,</br> Local -55°C ~ 125°C 9 b 8-SOIC|I2C compatible||
+|Temperature Sensor Digital, Local -55°C ~ 125°C 9 b 8-SOIC|I2C compatible||
 |$3.56|||
 |[Link to data sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LM75.pdf)|||
 
