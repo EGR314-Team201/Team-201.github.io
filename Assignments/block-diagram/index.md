@@ -90,7 +90,7 @@
 
 <div style="text-align: center">  
 
-<img src="media/blockdiagramoutputs.jpg" width="25%" height="50%" ><br>  
+<img src="media/blockdiagramoutputs.jpg" width="75%" height="75%" ><br>  
 
 </div>
 
