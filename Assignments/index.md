@@ -12,6 +12,8 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Product Requirements (1/18/2023)](https://egr314-team201.github.io/Assignments/Product-Requirements/)
 
+[Component Selection (2/22/2023)](egr314-team201.github.io/Assignments/component-selection)
+
 [Design Ideation (1/20/2023)](https://egr314-team201.github.io/Assignments/Design-Ideation/)
 
 [Software Proposal (2/22/2023)](egr314-team201.github.io/Assignments/software-proposal)
