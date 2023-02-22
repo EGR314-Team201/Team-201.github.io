@@ -1,3 +1,8 @@
+---
+title: Report
+---
+
+
 <p align="center"><strong>ARIZONA STATE UNIVERSITY</strong></p>
 
 <p align="center"><strong>ENGINEERING 314 - DANIEL AUKES</strong></p>
