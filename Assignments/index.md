@@ -14,4 +14,4 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Design Ideation (1/20/2023)](https://egr314-team201.github.io/Assignments/Design-Ideation/)
 
-[Block Diagram (2/22/2023)](https://egr314-team201.github.io/Assignments/block-diagram/)
+[Software Proposal (2/22/2023)](egr314-team201.github.io/Assignments/software-proposal)
