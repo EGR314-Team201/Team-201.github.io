@@ -92,4 +92,93 @@ Title: Component Selection
 **Rationale:** We picked this one due to its wide range of temperatures. This allows the device to be in a variety of climates and still be able to provide alerts for the user. It also has very spaced out pins allowing it to be easier to solder without potential bridges. It also is relatively inexpensive which allows our team to order a bunch of them in case errors occur.
 
 
+AIDEN FIX THE TEMPERATURE SENSOR STUFF
 
+# LED
+
+**Part Name:** 150060SS75000
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Easier to Wire  |Stuck to one color, limiting options  |
+|Option 1|Very bright| Low quality|
+|LED RED CLEAR 0603 SMD|Inexpensive|Can burn out quickly|
+|$0.15|||
+|[Link to data sheet](https://www.we-online.com/components/products/datasheet/150060SS75000.pdf)|||
+
+**Part Name:** APHF1608LSEEQBDZGKC
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |More diversity of color |Requires more wiring and more complicated programming  |
+|Option 2|More unique and distinguishable| More difficult to replace|
+|LED RGB CLEAR 4SMD||Relatively expensive|
+|$0.77|||
+|[Link to data sheet](https://www.kingbrightusa.com/images/catalog/SPEC/APHF1608LSEEQBDZGKC.pdf)|||
+
+**Choice:** Option 2 APHF1608LSEEQBDZGKC
+**Rationale:** It allows for more diversity of color in letting the user see ranges. We can use custom ranges, for example: setting the LED to different colors based on a sensor reading, like temperature.
+
+# Motor Driver
+
+**Part Name:** IFX9201SGAUMA1
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Used in class  |Needs 5v minimum supply|
+|Option 1|Team has more experience with it||
+|IC HALF-BRIDGE DRVR 2 CH 12DSO|2 half-bridges||
+|$4.88|||
+|[Link to data sheet](https://www.digikey.com/en/products/detail/infineon-technologies/IFX9201SGAUMA1/5415542)|||
+
+**Part Name:** IFX9201SGAUMA1
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |2 half bridges  |Needs 5v minimum supply|
+|Option 2|Has more fault protection|Relatively expensive|
+|IC DRIVER 12DSO|Made for automotive||
+|$5.38|||
+|[Link to data sheet](https://www.infineon.com/dgdl/Infineon-IFX9201SG-DS-v01_01-EN.pdf?fileId=5546d4624cb7f111014d2e8916795dea&ack=t)|||
+
+**Part Name:** ATA6832C-PIQW-1
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |3 half bridges  |Needs 4.5v minimum supply|
+|Option 3|Multiple load types|Relatively expensive|
+|IC HALF-BRIDGE DRVR SPI 18QFN|Has more fault protection|Needs a price quote before orderin(more lead time)|
+|Need to get price quoted|||
+|[Link to data sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9216-Drivers-ATA6832C_Datasheet.pdf)|||
+
+# Voltage Regulator
+
+**Part Name:** MAX5033AASA+T
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Large temperature range(-40C to +125C)|Relatively expensive|
+|Option 1|High efficiency under intended operating conditions(<80%)|Efficiency is reduced due to our intended Vin(7.5v)|
+|C REG BUCK 3.3V 500MA 8SOIC|Low quiescent current draw(~270 uA)|Only 500 mA output|
+|$3.87|||
+|[Link to data sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/max5033.pdf)|||
+
+**Part Name:** ADP1110AR-3.3
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Outputs required current|Modularity means more connections required for configuring in step-down mode|
+|Option 2|Configurable for battery indicator|Lower temperature operating range than other options|
+|UPWR, STEP-UP/DOWN SWITCHING REG|Relatively inexpensive|Requires difficult to source 1N5818 diode(Potentially viable with 1N5819 diode)|
+|$0.53|Expansive data sheet||
+|[Link to data sheet](https://rocelec.widen.net/view/pdf/qvisxtjgqu/ANDIS03974-1.pdf?t.download=true&u=5oefqw)|||
+
+**Part Name:** L6981N33DR
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Greatest max current output|Lower max soldering temperature|
+|Option 3|Low noise and low consumption version available for light load|Relatively expensive|
+|IC REG BUCK 3.3V 1.5A 8SO|High values for reverse voltage and current protection||
+|$3.02|Large temperature operating range||
+|[Link to data sheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/6f/60/06/44/3f/c5/43/f7/DM00747618/files/DM00747618.pdf/jcr:content/translations/en.DM00747618.pdf)|||
