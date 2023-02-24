@@ -218,8 +218,15 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 <p align="center">Figure J: Drone Kit</p>
 
+## Selected Design:
 
+## Block Diagram
 
+## Component Selection
+
+## Hardware Proposal
+
+## Software Proposal
   
 ## Appendix A: Team Organization
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
@@ -230,4 +237,4 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
   
   
 ## Appendix C: Project Requirements Document
-[PRD](https://egr314-team201.github.io/Assignments/Product-Requirements/)
+[Project Requirements Document](https://egr314-team201.github.io/Assignments/Product-Requirements/)
