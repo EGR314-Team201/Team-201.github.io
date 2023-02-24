@@ -218,6 +218,12 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 <p align="center">Figure J: Drone Kit</p>
 
+The idea for the drone is to take advantage of a drone’s capabilities to reach different altitudes quickly and be programmed to take a certain flight path. We would attach numerous sensors to the drone and try to upgrade its chassis and casing if need be. It would be collecting data from these sensors and storing them on an SD card and then transferring them over wifi once it can connect.
+
+The main concepts are shown in the image, but some were not able to be included due to them being internal components. These include a rechargeable battery, a way to track the drone using GPS, some form of collision detection, implementing PID control form the rotors, implementing Lidar to try and prevent collisions, the ability to sync with multiple drones, on-board encryption for the data(specifically the GPS data), a way to prevent the drone from accidently flying into restricted airspace, returning to base in case of a low battery, a gyroscope for stability, and a way to remotely control the drone.
+
+An example of usage would be wanting to track weather patterns in an area throughout a day. A user would set a flight path for the drone or even use a pre-programmed flight path (such as a grid pattern or a figure eight) and it would collect data throughout the day, autonomously returning to recharge and transfer any data it had collected. The user could change the height it operates at, to check weather patterns closer to the ground or higher up.
+
 ## Selected Design:
 
 ## Block Diagram:
