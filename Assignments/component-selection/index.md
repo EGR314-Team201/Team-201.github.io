@@ -149,6 +149,7 @@ Title: Component Selection
 |[Link to data sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9216-Drivers-ATA6832C_Datasheet.pdf)|||
 
 **Choice:** Option 1 IFX9201SGAUMA1
+
 **Rationale:** We will be more familiar with this motor driver and since all our options require SPI communication and we plan to use i2c for the rest of the project, it will be very helpful to be familiar with this component before using it in the final project. Outside of familiarity, it is cheaper than the other two objects.
 
 # Voltage Regulator
@@ -184,4 +185,5 @@ Title: Component Selection
 |[Link to data sheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/6f/60/06/44/3f/c5/43/f7/DM00747618/files/DM00747618.pdf/jcr:content/translations/en.DM00747618.pdf)|||
 
 **Choice:** Option 3: L6981N33DR
+
 **Rationale:** This voltage regulator features the highest Imax out of the other options, while featuring an extremely expansive and detailed datasheet. The listed application circuits, expected scope outputs and operating characteristics will easily allow the team to understand when the device is not operating correctly. The two operation modes will allow us to tailor the regulator circuit to the needs of the rest of our embedded system. 
