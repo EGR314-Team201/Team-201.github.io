@@ -66,15 +66,15 @@ Title: Component Selection
 |$13.30|||
 |[Link to data sheet](https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5611-01BA03&DocType=Data+Sheet&DocLang=English)|||
 
-**Part Name:** LM75BIM-5+
+**Part Name:** TC74A4-3.3VCTTR
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
 |image       |Small with space out prongs   |Greater voltage |
 |Option 2|Wide range of temperatures|Long lead time|
-|Temperature Sensor Digital, Local -55°C ~ 125°C 9 b 8-SOIC|I2C compatible||
-|$3.56|||
-|[Link to data sheet](https://www.analog.com/media/en/technical-documentation/data-sheets/LM75.pdf)|||
+|Temperature Sensor Digital, Local -40°C ~ 125°C 7 b SOT-23-5|I2C compatible||
+|$1.09|||
+|[Link to data sheet](https://www.digikey.com/en/htmldatasheets/production/48489/0/0/1/tc74.html)|||
 
 
 **Part Name:** STS-30-DIS
@@ -87,12 +87,9 @@ Title: Component Selection
 |$2.22|||
 |[Link to data sheet](https://sensirion.com/media/documents/1DA31AFD/61641F76/Sensirion_Temperature_Sensors_STS3x_Datasheet.pdf)|||
 
-**Choice:** Option 2 LM75BIM-5+
+**Choice:** Option 2 TC74A4-3.3VCTTR
 
 **Rationale:** We picked this one due to its wide range of temperatures. This allows the device to be in a variety of climates and still be able to provide alerts for the user. It also has very spaced out pins allowing it to be easier to solder without potential bridges. It also is relatively inexpensive which allows our team to order a bunch of them in case errors occur.
-
-
-AIDEN FIX THE TEMPERATURE SENSOR STUFF
 
 # LED
 
@@ -151,6 +148,9 @@ AIDEN FIX THE TEMPERATURE SENSOR STUFF
 |Need to get price quoted|||
 |[Link to data sheet](https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-9216-Drivers-ATA6832C_Datasheet.pdf)|||
 
+**Choice:** Option 1 IFX9201SGAUMA1
+**Rationale:** We will be more familiar with this motor driver and since all our options require SPI communication and we plan to use i2c for the rest of the project, it will be very helpful to be familiar with this component before using it in the final project. Outside of familiarity, it is cheaper than the other two objects.
+
 # Voltage Regulator
 
 **Part Name:** MAX5033AASA+T
@@ -182,3 +182,6 @@ AIDEN FIX THE TEMPERATURE SENSOR STUFF
 |IC REG BUCK 3.3V 1.5A 8SO|High values for reverse voltage and current protection||
 |$3.02|Large temperature operating range||
 |[Link to data sheet](https://www.st.com/content/ccc/resource/technical/document/datasheet/group3/6f/60/06/44/3f/c5/43/f7/DM00747618/files/DM00747618.pdf/jcr:content/translations/en.DM00747618.pdf)|||
+
+**Choice:** Option 3: L6981N33DR
+**Rationale:** This voltage regulator features the highest Imax out of the other options, while featuring an extremely expansive and detailed datasheet. The listed application circuits, expected scope outputs and operating characteristics will easily allow the team to understand when the device is not operating correctly. The two operation modes will allow us to tailor the regulator circuit to the needs of the rest of our embedded system. 
