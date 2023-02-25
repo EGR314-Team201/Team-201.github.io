@@ -197,9 +197,9 @@ Finnton Wentworth visualized concept #2, a floating water based sensor array. Th
 
 <p align="center">Figure I: Water Buoy </p>
 
-Design concept #2 looks to act as a deployable water quality  and condition sensor. The user would place the buoy in a body of water to collect and transmit data based on the attached sensors. The main point of actuation is in a sample collection bay door, which sits under the surface of the water. Once the door closes, the water sample can be collected later when the device is retrieved for lab analysis.
+Design concept #2 looks to act as a deployable water quality and condition sensor. The user would place the buoy in a body of water to collect and transmit data based on the attached sensors. The main point of actuation is in a sample collection bay door, which sits under the surface of the water. Once the door closes, the water sample can be collected later when the device is retrieved for lab analysis.
 
-The microcontroller and batteries will be stored in a sealed chamber within the main housing of the device, with wires running out connecting to the motor, lights, and external sensors, and sealed to prevent water from damaging the electronics.. The body of the device will be constructed from some waterproof material, most likely printed PLA. One major risk of this design is damaged to the sensitive components due to moisture or water. Some inexpensive moisture control strategies would be including silica gel packets within the electronics housing. 
+The microcontroller and batteries will be stored in a sealed chamber within the main housing of the device, with wires running out connecting to the motor, lights, and external sensors, and sealed to prevent water from damaging the electronics. The body of the device will be constructed from some waterproof material, most likely printed PLA. One major risk of this design is damage to the sensitive components due to moisture or water. Some inexpensive moisture control strategies would be including silica gel packets within the electronics housing. 
 
 
 **Concept 3: Drone**
@@ -220,13 +220,31 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 The idea for the drone is to take advantage of a drone’s capabilities to reach different altitudes quickly and be programmed to take a certain flight path. We would attach numerous sensors to the drone and try to upgrade its chassis and casing if need be. It would be collecting data from these sensors and storing them on an SD card and then transferring them over wifi once it can connect.
 
-The main concepts are shown in the image, but some were not able to be included due to them being internal components. These include a rechargeable battery, a way to track the drone using GPS, some form of collision detection, implementing PID control form the rotors, implementing Lidar to try and prevent collisions, the ability to sync with multiple drones, on-board encryption for the data(specifically the GPS data), a way to prevent the drone from accidently flying into restricted airspace, returning to base in case of a low battery, a gyroscope for stability, and a way to remotely control the drone.
+The main concepts are shown in the image, but some could not be included due to them being internal components. These include a rechargeable battery, a way to track the drone using GPS, some form of collision detection, implementing PID control from the rotors, implementing Lidar to try and prevent collisions, the ability to sync with multiple drones, on-board encryption for the data(specifically the GPS data), a way to prevent the drone from accidentally flying into restricted airspace, returning to base in case of a low battery, a gyroscope for stability, and a way to remotely control the drone.
 
 An example of usage would be wanting to track weather patterns in an area throughout a day. A user would set a flight path for the drone or even use a pre-programmed flight path (such as a grid pattern or a figure eight) and it would collect data throughout the day, autonomously returning to recharge and transfer any data it had collected. The user could change the height it operates at, to check weather patterns closer to the ground or higher up.
 
 ## Selected Design:
 
+After our Checkpoint 1 Presentation, we decided to sit down and really evaluate how we were going to implement our project. We were at the time very confident that we were going to end up doing the Weather Balloon Idea. However, when we sat down and decided to implement the idea, the concept of the Balloon Budget and the safety of the device became fundamental problems that rendered our idea unusable. We could not ensure the protection of the device with our budget. After that revelation, we decided we had to rework our idea. We took the original idea that was the base of the balloon and then decided to make that a stationary object. Once we decided that the possibilities of what we could design expanded drastically. After many looks at our User Needs, Project Requirements Document, and our Ideas, we came up with the idea in Figure K
+
+**Image**
+
+<p align="center">Figure K: Selected Design Idea</p>
+
+With this idea we have all of our sensors on the Elevated layer that collects the readings. When the humidity or temperature gets so high the motor the in the center turners the dome so it is a completely sealed area and prevents any future damage to the device. In the following sections, we will be going into more depth on how the specifics of our design.
+
+
 ## Block Diagram:
+
+After we decided on our idea we needed to determine the subsystems and how the idea will operate as a whole. To do this we looked at the individual parts we determined we needed to make this work and split them up. While we did this we referenced the project requirements as well and made sure every part fit the project requirements. The full block diagram which is in Figure L has been constantly updated during our project to showcase the most current version.
+
+**Image**
+
+<p align="center">Figure L: Block Diagram</p>
+
+On the block diagram, we have the Temperature and Humidity sensors that use I2C and SPI which fulfill the sensor requirements. We have a motor driver that uses bidirectional capability and uses SPI which fulfills the Actuation Requirements. We also have UART capabilities through the ESP32 module which is also how we will transmit over Wifi. Then we also have the Microcontroller Part that will control the entire system that we picked in the Component Selection part of the process. We also have a button that serves as a reset button that when pressed will send the device back to default mode. We also have an RGB Led which makes a fun little indicator. This does not fulfill any project requirements but it is just there to enhance the experience.
+
 
 ## Component Selection:
 
