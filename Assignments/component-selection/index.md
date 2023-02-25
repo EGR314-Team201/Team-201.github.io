@@ -6,18 +6,6 @@ Title: Component Selection
 ## EGR 314
 ### 2/3/23
 
-# Template
-
-**Part Name:** name
-
-|**Solution**|**Pros**|**Cons**|
-|:----------:|:------:|:------:|
-|image       |pro 1   |con 1  |
-|Option #|pro 2| con 2|
-|Description|pro 3|con 3|
-|Price|||
-|Link to data sheet|||
-
 # Humidity Sensor
 
 **Part Name:** HIH6130-021-001
@@ -25,7 +13,7 @@ Title: Component Selection
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:--------------------:|:--------------------------------------------------:|
 |image       |Low operating voltage|Very expensive|
-|Option 1    |Footprint and schematic </br> symbols provided|Possible long lead time|
+|Option 1    |Footprint and schematic symbols provided|Possible long lead time|
 |Board Mount Humidity Sensors I2C,5 %RH,SOIC-8 SMD NO FILTER,NON-COND|Wide range of operating temperatures||
 |$18.14      |||
 |[Link to data sheet](https://www.mouser.com/datasheet/2/187/HWSC_S_A0012940693_1-3073215.pdf) ||
@@ -187,3 +175,77 @@ Title: Component Selection
 **Choice:** Option 3: L6981N33DR
 
 **Rationale:** This voltage regulator features the highest Imax out of the other options, while featuring an extremely expansive and detailed datasheet. The listed application circuits, expected scope outputs and operating characteristics will easily allow the team to understand when the device is not operating correctly. The two operation modes will allow us to tailor the regulator circuit to the needs of the rest of our embedded system. 
+
+# 7.4v Battery Pack
+
+**Part Name:** L74A52-4-3-2WX
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:--------------------:|:--------------------------------------------------:|
+|image       |High mAh|Relatively expensive|
+|Option 1    |Short lead time||
+|BATTERY PACK LI-ION 7.4V 18650|||
+|$26.44|||
+|[Link to data sheet](https://dantona.com/l74a52-4-3-2wx) ||
+
+**Part Name:** L74A26-2-1-2WX
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Relatively small footprint|Relatively Expensive |
+|Option 2          |Short lead time||
+|BATTERY PACK LI-ION 7.4V 18650|||
+|$17.87|||
+|[Link to data sheet](https://dantona.com/l74a26-2-1-2wx)|||
+
+**Part Name:** L74A52-4-10-2WX
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |High mAh   |Expensive  |
+|Option 3|Short lead time|Bulky|
+|BATTERY PACK LI-ION 7.4V 18650|||
+|$26.44|Footprint providded||
+|[Link to data sheet](https://dantona.com/l74a52-4-10-2wx)|||
+
+**Choice:** Option 2 7.4v Battery Pack: L74A26-2-1-2WX
+
+**Rationale:** It is the cheaper and most compact option. It has enough mAh for our needs, and we have proven it has worked to power our selected motor in the past.
+
+
+# Motor
+
+**Part Name:** MOT-KM NJSC-12-A
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:--------------------:|:--------------------------------------------------:|
+|image       |High mAh|Relatively expensive|
+|Option 1    |Short lead time||
+|12MM SPUR GEAR MOTOR - BRUSHED,|||
+|$18.75|||
+|[Link to data sheet](https://media.digikey.com/pdf/Data%20Sheets/ISL%20PDFs/MOT-KM%20NJSC-12-A.pdf) ||
+
+**Part Name:** PPN7PA12C1
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Inexpensive to replace|Low torque|
+|Option 2          |Small|Hard to attach an axle|
+|STANDARD MOTOR 11605 RPM 5V|High RPM||
+|$3.34|Lightweight||
+|[Link to data sheet](https://media.digikey.com/pdf/Data%20Sheets/NMB-MAT/ppn7pa12c1%20data%20sheet.pdf)|||
+
+**Part Name:** SE10JOVTM
+
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|image       |Extremely small   |Can only be ordered in quantities of 25|
+|Option 3|Well balanced between RPM and torque|made to order|
+|STANDARD MOTOR 7000 RPM 5V|Lightweight|Expensive|
+|$34.72|Footprint providded||
+|[Link to data sheet](https://media.digikey.com/pdf/Data%20Sheets/NMB-MAT/SE10J.pdf)|||
+
+**Choice:** Option 1 MOT-KM NJSC-12-A DC brushed motor
+
+**Rationale:** The MOT-KM NJSC-12-A DC brushed motor is more expensive, but it is small enough to fit multiple in a small frame, and is lightweight, preventing the robot from becoming too heavy. It has high torque due to the gearbox and has a lower rated current draw compared to the other two.
+
