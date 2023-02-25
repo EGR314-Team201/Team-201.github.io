@@ -28,17 +28,6 @@ Title: Software Proposal
 
 </figure>
 
-## Sensor Reading Loop
-
-<figure class="image">  
-
-<div style="text-align: center">  
-
-<img src="media/blockdiagramread.jpg" width="25%" height="50%" ><br>  
-
-</div>
-
-</figure>
 
 ## Initialize Loop
 
