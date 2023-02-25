@@ -232,7 +232,7 @@ After our Checkpoint 1 Presentation, we decided to sit down and really evaluate 
 
 <p align="center">Figure K: Selected Design Idea</p>
 
-With this idea we have all of our sensors on the Elevated layer that collects the readings. When the humidity or temperature gets so high the motor the in the center turners the dome so it is a completely sealed area and prevents any future damage to the device. In the following sections, we will be going into more depth on how the specifics of our design.
+With this idea we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature gets so high the motor the in the center turners the dome so it is a completely sealed area and prevents any future damage to the device. In the following sections, we will be going into more depth on how the specifics of our design.
 
 
 ## Block Diagram:
