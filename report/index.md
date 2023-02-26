@@ -250,6 +250,26 @@ On the block diagram, we have the Temperature and Humidity sensors that use I2C 
 
 ## Hardware Proposal:
 
+After we selected our components we then were able to create the schematic for our final design. To do this we each decided to take our individual subsystems and design those first. We utilized the datasheets and the lessons from our Engineering 304 and 314 classes. After we had an idea of what our final subsystem circuit would look like we decided to verify them on some custom PCBs. To start we designed our subsystem schematic in Cadence’s Capture CIS. While designing we had to create custom symbols and PCB Footprints to represent the parts that we picked during Component Selection. Almost every single component listed in Component Selection needed a custom footprint which we have in a shared folder that will be for the Hardware Proposal and the Final Hardware Implementation. While we were designing we also included the ESP32 and the OLED screen which fulfilled the last 2 parts of the Project Requirements that have not been mentioned. After that was all sorted we designed our individual PCBs in Cadence’s PCB Editor and sent them to manufacturing. The Microcontroller individual subsystem which was created by Finnton Wentworth is shown in Figure T and Figure U.
+
+**Image**
+
+<p align="center">Figure T: Microcontroller Schematic</p>
+
+**Image**
+
+<p align="center">Figure U: Microcontroller PCB</p>
+
+After the PCBs were printed we populated them with the components that we ordered in Component Selection. Once we verified that they all worked as intended we met up together and decided to start designing the team schematic. We made any last minute changes we wanted to make to our individual schematics and then imported them all onto a singular file. One of the key priorities we had while designing our Team Schematic was that we wanted it to be easy to follow. We wanted to have anybody with no prior knowledge of our project to be able to look at it and understand exactly how it worked. A very important part of our project is I2C and SPI communication. To ensure that these worked we made sure that there were pullup Resistors on the I2C bus per the I2C communication specifications, to prevent floating voltages that could cause data corruption. We also made sure to follow the recommended protocols for SPI that were listed on the Microcontroller Datasheet. Our team also included header pins to allow our chip to be programmable using ICSP while it is soldered to the board. The header pins that allow for this are labeled J11 for MCLR and J12 for ICSPDAT and ICSPCLK. After we had our initial design we wanted many different perspectives. We had the teaching team, our peers, and industry professionals review our schematic to make sure it was as thorough and as accurate as possible. After we implemented all of our feedback we designed the Team PCB and had it manufactured. The Team Schematic and Team PCB can be found in Figure V and Figure W.
+
+**Image**
+
+<p align="center">Figure V: Team Schematic</p>
+'
+**Placeholder Image**
+
+<p align="center">Figure W: Team PCB</p>
+
 ## Software Proposal:
   
 ## Appendix A: Team Organization
