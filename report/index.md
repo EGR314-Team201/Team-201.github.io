@@ -358,6 +358,7 @@ The last and most important block of the Software Diagram is the Output loop. Th
 During all of these steps, the variables and information will be constantly printing to the ESP32, which will publish to a MQTT server,  and to an OLED screen so that the user will be constantly aware of what is happening. This connects back to the user needs part where users would like to know what the values are so they could analyze the trends. Shown below in **Figure Y: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
 
 <p align="center">Figure Y: MCC Classic Pin Assignments</p>
+
 ## Appendix A: Team Organization
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
   
