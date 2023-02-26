@@ -123,7 +123,7 @@ Description: Govee is a global leading smart home brand dedicated to providing p
 
 Customer Needs:
 * Provides precise data
-* storical Data for analyzing trends
+* Historical Data for analyzing trends
 * Wireless and can connect to an easilty navigatable app.
 
 #### Review #2:
