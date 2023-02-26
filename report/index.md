@@ -223,6 +223,9 @@ The main concepts are shown in the image, but some could not be included due to 
 
 An example of usage would be wanting to track weather patterns in an area throughout a day. A user would set a flight path for the drone or even use a pre-programmed flight path (such as a grid pattern or a figure eight) and it would collect data throughout the day, autonomously returning to recharge and transfer any data it had collected. The user could change the height it operates at, to check weather patterns closer to the ground or higher up.
 
+The wide range of design concepts we discussed and ideated as a team looked to address the open nature of the user needs we generated. Since the generated user needs asked for clear, accurate information collection from their device, we looked to provide products that would provide data collection in a variety of environments before deciding on a project direction. By exploring options in field deployable weather devices in a variety of environments, our team explored the possibilities of various sensor arrays that would stay within design requirements. The generated concepts, however, provided design difficulties our team was worried about addressing.
+
+
 
 ## Selected Design:
 
