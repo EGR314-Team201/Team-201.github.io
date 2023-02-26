@@ -95,6 +95,8 @@ Our list of sorted needs were kept in their sorted categories for the PRD, and c
   
 The full PRD can be found in **Appendix C: Project Requirements Document**
 
+Overall the User Needs taught us alot about what we should prioritize during the future steps of the project. We learned that portability was a very important feature that many users want with their product. However, on that same spectrum, the device needs to be stable enough to not constantly move around on a windy day. Another important feature that was a common want throughout the reviews was that they wanted to be able to see everything on their phone. Whether that be trends, battery status, or the current status of what is happening users want that information to be easily accessible. These are all very important aspects we are going to make sure are included when our team goes into the development phase.
+
 
 ## Design Ideation:
 
@@ -249,7 +251,77 @@ On the block diagram, we have the Temperature and Humidity sensors that use I2C 
 
 ## Microcontroller Selection:
 
+Choosing a microcontroller that could meet the demands of the variety of subsystems described in the team’s block diagram was essential to the success of the project. Without a capable microcontroller, none of the sensors and motors could work in tandem to create a cohesive embedded system. To ensure that the proper PIC series microcontroller was selected for our final design, we developed a list of requirements for our candidate microcontrollers. These included: 
+
+1. 2 dedicated I2C and SPI peripherals, either standalone or through Master Synchronous Serial Port (MSSP)
+ 
+2. 14 GPIO pins bare minimum, with extras for flexibility in our design
+
+3. 1 UART communication port, bare minimum, for interfacing with the ESP32
+
+Our team also decided on additional peripherals that would permit for greater flexibility in our design in the case of last minute changes due to unforeseen difficulties. 
+
+1. 1 Analog-to-Digital Converter (ADC) and 1 Digital-to-Analog (DAC) for design flexibility
+
+2. 1 PWM output for additional motor driving capabilities
+
+3. A second UART channel for interfacing with an external PC without interrupting UART communications between the PIC and the MCU
+
+4. Expansive internal memory for allowing for large program sizes 
+
+These factors influenced our choice, along with the stated course project requirements, and our team settled on the PIC18F27Q10, shown below in **Figure M**, in the SOIC package form.
+
+<p align="center">Figure M: PIC18F27Q10 MCU, SOIC package</p>
+
+This IC met all constraints and further criteria our team established, with two MSSP ports, two UART channels, and enough GPIO pins to drive all external peripherals our design demanded. One major advantage of this MCU over other options is its ease of implementation with the existing work our team has accomplished in the course using the Curiosity Nano Development board, which features the PIC18F47Q10, in the same device family as our selected microcontroller.  The two MCUs feature the exact same set of peripherals, differing only in total pin count and ADC channels. The reduction in ADC channels is irrelevant to our design, and by reducing the total pin count, we also reduce the footprint of our chip on our final PCB. Choosing this microcontroller allows for seamless integration of code already written by our team during homeworks, ICCs, and labs, while reducing the unneeded features from the PIC18F47Q10 Curiosity Nano development board. Since the datasheet of this MCU is the same as the microcontroller used in class, our team is already familiar with navigating the datasheet for examples and pinouts. This makes the PIC18F27Q10 a compelling choice for serving as the main brain of our sensor array. The full comparison of the PIC18F27Q10 between two other alternatives, the PIC18F45Q10 and the PIC16F15376, can be found in **Appendix E: Microcontroller selection.**
+
 ## Component Selection:
+
+After we determined what subsystems we wanted to do and how the product was going to work, we then had to decide what parts we were going to use. We as a team met up and talked about the criteria we were all going to follow while selecting our parts. After looking at product requirements and our own personal opinions we decided on the following general requirements:
+
+1. Must contain a thorough Datasheet
+
+2. Must be Surface Mount
+
+3. Total Subsystem needs to be under $60 Dollars
+
+4. Must be able to ship immediately 
+
+After we determined these general requirements we each went to research our own subsystem. Below we have the 6 most critical parts of our subsystem and our rationale behind why we chose them.
+
+**Temperature Sensor:**
+
+<p align="center">Figure N: TC74A4-3.3VCTTR</p>
+
+We ultimately decided on this sensor in **Figure N** due to its large range of temperatures. This allows the user to take this product with them to whichever climate they go to and still be able to utilize it. Another aspect we enjoyed about the product was how spaced out the pins were which would make it easier to solder without accidentally bridging the component. It was also very inexpensive which allowed us to order many in case of a problem with a sensor. This component also greatly fits every component requirement we created at the start.
+
+**Humidity Sensor:**
+
+<p align="center">Figure O: HIH6130-021-001</p>
+
+We ultimately decided on the sensor in **Figure O** due to its reliability. The chip comes with many useful additions. It contains a built-in filter that protects the sensor from any contaminants which is very useful in a place such as a closet where dust can commonly be found. It also has a built-in condensation resistance which will be very useful for not having to replace the sensor which is an important feature to our users. It also can survive in a large number of climates and fits all of our predetermined general requirements.
+
+**Motor Driver:**
+
+Figure P:
+
+**Motors:**
+
+Figure Q:
+
+**Voltage Regulator:**
+
+<p align="center">Figure R: L6981N33DR</p>
+
+The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
+
+**Power Budget:**
+
+After we chose all of our components we needed to make sure that they fit the power constraints that we were assigned at the beginning of the project. Our final power budget is listed below in **Figure S.**
+
+<p align="center">Figure S: Power Budget</p>
+
+Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily.
 
 ## Hardware Proposal:
 
@@ -274,7 +346,18 @@ After the PCBs were printed we populated them with the components that we ordere
 <p align="center">Figure W: Team PCB</p>
 
 ## Software Proposal:
+
+After we designed our schematic we wanted to have a strong understanding of how the code will operate. To do that we decided to make a diagram that shows the flow of our entire system. We wanted to go very in-depth so that similar to the schematic anyone with no prior knowledge of our project will be able to get a solid understanding of how it will work. Our full Software Proposal is below in **Figure X.**
+
+<p align="center">Figure X: Software Proposal</p>
   
+The first block we have is the Main Loop which is a general overview of how the entire system will operate. The main loop’s first block is the Initialize System block where we set the variables that will be used through the code. It also provides some other start-up requirements that the program will need to operate. We then also Initialize the Interrupts which is a very important part of the Project Requirements. We then read the Temperature Sensor first due to the fact that the temperature sensor is just for data to notice trends. The temperature sensor will collect data and then send the values to PIC which will then in turn send the values to the OLED. This will be a constant stream of data that will be constantly being updated on the OLED Screen. The Humidity Sensor is similar but also is more crucial to the device. It starts off the same with how it receives the data and how it transmits to the OLED however it has the very interrupt. This is triggered when the sensor determines the humidity is in the upper half of the humidity range and when this occurs the interrupt will trigger. 
+
+The last and most important block of the Software Diagram is the Output loop. There are two main instances in this block, when the humidity is greater than 50% and when it is below 50%. For the above 50% block the motor will turn on and the LED will flash red to indicate that the Dome is spinning shut. It will continue to do that until the first Limit Switch is depressed. When this happens the motor will turn on and the LED will switch to green to indicate that the motor is done. The other instance is when the humidity returns to an acceptable level. When this happens the motor will turn on in the other direction and the LED will flash red to indicate that the motor is moving. When the other Limit Switch is decompressed then the motor will shut off and the LED will flash back to green. If Humidity is currently not reading the LED will flash yellow to alert the user that there may be potential damage to the sensor. 
+
+During all of these steps, the variables and information will be constantly printing to the ESP32, which will publish to a MQTT server,  and to an OLED screen so that the user will be constantly aware of what is happening. This connects back to the user needs part where users would like to know what the values are so they could analyze the trends. Shown below in **Figure Y: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
+
+<p align="center">Figure Y: MCC Classic Pin Assignments</p>
 ## Appendix A: Team Organization
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
   
