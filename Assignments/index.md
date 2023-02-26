@@ -19,3 +19,5 @@ Below are the list of assignments we have completed over the course of the semes
 [Block Diagram (2/25/2023)](https://egr314-team201.github.io/Assignments/block-diagram/)
 
 [Software Proposal (2/22/2023)](https://egr314-team201.github.io/Assignments/software-proposal/)
+
+[Microcontroller Selection (2/25/2023)](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
