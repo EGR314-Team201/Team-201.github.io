@@ -12,7 +12,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:--------------------:|:--------------------------------------------------:|
-|image       |Low operating voltage|Very expensive|
+|<figure class="image"><div style="text-align: center"><img src="media/humidity1.png" width="25%" height="50%" ><br></div></figure>|Low operating voltage|Very expensive|
 |Option 1    |Footprint and schematic symbols provided|Possible long lead time|
 |Board Mount Humidity Sensors I2C,5 %RH,SOIC-8 SMD NO FILTER,NON-COND|Wide range of operating temperatures||
 |$18.14      |||
@@ -22,7 +22,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Low operating voltage   |Expensive |
+|<figure class="image"><div style="text-align: center"><img src="media/humidity2.png" width="25%" height="50%" ><br></div></figure>|Low operating voltage   |Expensive |
 |Option 2          |I2C compatible| Possible long lead time|
 |Board Mount Humidity Sensors I2C 4.5%RH SOIC-8 SMD non-condensing|Wide range of operating temperatures|No footprint provided|
 |$12.31|||
@@ -32,7 +32,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Low Operating Voltage   |Expensive  |
+|<figure class="image"><div style="text-align: center"><img src="media/humidity3.png" width="25%" height="50%" ><br></div></figure>|Low Operating Voltage   |Expensive  |
 |Option 3|I2C compatible|Possible long lead time|
 |Board Mount Humidity Sensors SOIC 8 SMD w/o filter Non-condensing|wide range of operating temperatures|No filter|
 |$13.84|Footprint providded||
@@ -48,7 +48,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Low voltage   |Relatively expensive |
+|<figure class="image"><div style="text-align: center"><img src="media/temp1.png" width="25%" height="50%" ><br></div></figure>|Low voltage   |Relatively expensive |
 |Option 1|High accuracy for precise results|Long lead time|
 |Pressure Sensor 0.15PSI ~ 17.4PSI (1kPa ~ 120kPa) Absolute 24 b 8-SMD|Wide range of working temperatures||
 |$13.30|||
@@ -58,7 +58,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Small with space out prongs   |Greater voltage |
+|<figure class="image"><div style="text-align: center"><img src="media/temp2.png" width="25%" height="50%" ><br></div></figure>|Small with space out prongs   |Greater voltage |
 |Option 2|Wide range of temperatures|Long lead time|
 |Temperature Sensor Digital, Local -40°C ~ 125°C 7 b SOT-23-5|I2C compatible||
 |$1.09|||
@@ -69,7 +69,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Wide range of temperatures   |Very close together pins |
+|<figure class="image"><div style="text-align: center"><img src="media/temp3.png" width="25%" height="50%" ><br></div></figure>|Wide range of temperatures   |Very close together pins |
 |Option 3|Good efficiency|Not very dexcriptive data sheet|
 |SENSOR DIGITAL 0C-65C 8TDFN||Potentially need higher votage|
 |$2.22|||
@@ -85,7 +85,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Easier to Wire  |Stuck to one color, limiting options  |
+|<figure class="image"><div style="text-align: center"><img src="media/LED1.png" width="25%" height="50%" ><br></div></figure>|Easier to Wire  |Stuck to one color, limiting options  |
 |Option 1|Very bright| Low quality|
 |LED RED CLEAR 0603 SMD|Inexpensive|Can burn out quickly|
 |$0.15|||
@@ -95,7 +95,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |More diversity of color |Requires more wiring and more complicated programming  |
+|<figure class="image"><div style="text-align: center"><img src="media/LED2.png" width="25%" height="50%" ><br></div></figure>|More diversity of color |Requires more wiring and more complicated programming  |
 |Option 2|More unique and distinguishable| More difficult to replace|
 |LED RGB CLEAR 4SMD||Relatively expensive|
 |$0.77|||
@@ -110,7 +110,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Used in class  |Needs 5v minimum supply|
+|<figure class="image"><div style="text-align: center"><img src="media/driver1.png" width="25%" height="50%" ><br></div></figure>|Used in class  |Needs 5v minimum supply|
 |Option 1|Team has more experience with it||
 |IC HALF-BRIDGE DRVR 2 CH 12DSO|2 half-bridges||
 |$4.88|||
@@ -120,7 +120,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |2 half bridges  |Needs 5v minimum supply|
+|<figure class="image"><div style="text-align: center"><img src="media/driver2.png" width="25%" height="50%" ><br></div></figure>|2 half bridges  |Needs 5v minimum supply|
 |Option 2|Has more fault protection|Relatively expensive|
 |IC DRIVER 12DSO|Made for automotive||
 |$5.38|||
@@ -130,7 +130,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |3 half bridges  |Needs 4.5v minimum supply|
+|<figure class="image"><div style="text-align: center"><img src="media/driver3.png" width="25%" height="50%" ><br></div></figure>|3 half bridges  |Needs 4.5v minimum supply|
 |Option 3|Multiple load types|Relatively expensive|
 |IC HALF-BRIDGE DRVR SPI 18QFN|Has more fault protection|Needs a price quote before orderin(more lead time)|
 |Need to get price quoted|||
@@ -146,7 +146,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Large temperature range(-40C to +125C)|Relatively expensive|
+|<figure class="image"><div style="text-align: center"><img src="media/regulator1.png" width="25%" height="50%" ><br></div></figure>|Large temperature range(-40C to +125C)|Relatively expensive|
 |Option 1|High efficiency under intended operating conditions(<80%)|Efficiency is reduced due to our intended Vin(7.5v)|
 |C REG BUCK 3.3V 500MA 8SOIC|Low quiescent current draw(~270 uA)|Only 500 mA output|
 |$3.87|||
@@ -156,7 +156,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Outputs required current|Modularity means more connections required for configuring in step-down mode|
+|<figure class="image"><div style="text-align: center"><img src="media/regulator2.png" width="25%" height="50%" ><br></div></figure>|Outputs required current|Modularity means more connections required for configuring in step-down mode|
 |Option 2|Configurable for battery indicator|Lower temperature operating range than other options|
 |UPWR, STEP-UP/DOWN SWITCHING REG|Relatively inexpensive|Requires difficult to source 1N5818 diode(Potentially viable with 1N5819 diode)|
 |$0.53|Expansive data sheet||
@@ -166,7 +166,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Greatest max current output|Lower max soldering temperature|
+|<figure class="image"><div style="text-align: center"><img src="media/regulator3.png" width="25%" height="50%" ><br></div></figure>|Greatest max current output|Lower max soldering temperature|
 |Option 3|Low noise and low consumption version available for light load|Relatively expensive|
 |IC REG BUCK 3.3V 1.5A 8SO|High values for reverse voltage and current protection||
 |$3.02|Large temperature operating range||
@@ -182,7 +182,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:--------------------:|:--------------------------------------------------:|
-|image       |High mAh|Relatively expensive|
+|<figure class="image"><div style="text-align: center"><img src="media/battery1.png" width="25%" height="50%" ><br></div></figure>|High mAh|Relatively expensive|
 |Option 1    |Short lead time||
 |BATTERY PACK LI-ION 7.4V 18650|||
 |$26.44|||
@@ -192,7 +192,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Relatively small footprint|Relatively Expensive |
+|<figure class="image"><div style="text-align: center"><img src="media/battery2.png" width="25%" height="50%" ><br></div></figure>|Relatively small footprint|Relatively Expensive |
 |Option 2          |Short lead time||
 |BATTERY PACK LI-ION 7.4V 18650|||
 |$17.87|||
@@ -202,7 +202,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |High mAh   |Expensive  |
+|<figure class="image"><div style="text-align: center"><img src="media/battery3.png" width="25%" height="50%" ><br></div></figure>|High mAh   |Expensive  |
 |Option 3|Short lead time|Bulky|
 |BATTERY PACK LI-ION 7.4V 18650|||
 |$26.44|Footprint providded||
@@ -219,7 +219,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:--------------------:|:--------------------------------------------------:|
-|image       |High mAh|Relatively expensive|
+|<figure class="image"><div style="text-align: center"><img src="media/motor1.png" width="25%" height="50%" ><br></div></figure>|High mAh|Relatively expensive|
 |Option 1    |Short lead time||
 |12MM SPUR GEAR MOTOR - BRUSHED,|||
 |$18.75|||
@@ -229,7 +229,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Inexpensive to replace|Low torque|
+|<figure class="image"><div style="text-align: center"><img src="media/motor2.png" width="25%" height="50%" ><br></div></figure>|Inexpensive to replace|Low torque|
 |Option 2          |Small|Hard to attach an axle|
 |STANDARD MOTOR 11605 RPM 5V|High RPM||
 |$3.34|Lightweight||
@@ -239,7 +239,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|image       |Extremely small   |Can only be ordered in quantities of 25|
+|<figure class="image"><div style="text-align: center"><img src="media/motor3.png" width="25%" height="50%" ><br></div></figure>|Extremely small   |Can only be ordered in quantities of 25|
 |Option 3|Well balanced between RPM and torque|made to order|
 |STANDARD MOTOR 7000 RPM 5V|Lightweight|Expensive|
 |$34.72|Footprint providded||
