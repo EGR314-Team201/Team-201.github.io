@@ -45,6 +45,8 @@ Since Bradley only can work part-time at school, purchasing a device that can be
 
 ## Aspects
 
+Priority Indicators, shown P1-10, translate our rankings from the team's user needs generation process, where a P10 ranking indicates the highest level of stress placed on that project aspect, and a P1 indicating lower importance. By changing the scale from 1 to 3 stars to a 10 point priority ranking, we are able to provide greater nuance to the priorities that different user needs placed on our project design. Project Requirements and usability features were given the highest rankings.
+
 **1   	Hardware/Product Design**
 
 1.1 The device must contain height and altitude sensing (P9)
