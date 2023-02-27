@@ -18,6 +18,8 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Component Selection (2/1/2023)](https://egr314-team201.github.io/Assignments/component-selection/)
 
+[Bill of Materials (2/1/2023)](https://egr314-team201.github.io/Assignments/Bill-of-Materials/)
+
 [Power Budget (2/1/2023)](https://egr314-team201.github.io/Assignments/power-budget/)
 
 [Microcontroller Selection (2/8/2023)](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
