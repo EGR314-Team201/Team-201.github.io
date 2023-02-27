@@ -17,7 +17,7 @@ title: Report
 
 ## Team Organization:
 
-The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in **Appendix A: Team Organization**
+The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in [**Appendix A: Team Organization Assignment**](https://egr314-team201.github.io/Assignments/TeamOrganization/)
 
 **Team Charter:**
 
@@ -88,12 +88,14 @@ From these sorted needs, our team ranked the needs into three separate weights, 
 </figure>
 
 <p align="center">Figure C: Ranked List of Hardware Needs</p>
-  
+
+The full assignment can be found in [**Appendix B User Needs and Benchmarking**](https://egr314-team201.github.io/Assignments/User-Needs/)
+
 Now with our generated list of user needs sorted and ranked, our team looked to characterize and formalize the project and needs through the construction of a Project Requirements Document, which would provide the background, objectives, and potential stakeholder experiences with our project. Although we felt that our main stakeholders ranged from Industry members to hobbyists, we chose to imagine the project’s use from the perspective of a field engineer as well as a student for our use case scenarios. 
   
 Our list of sorted needs were kept in their sorted categories for the PRD, and converted to project aspects for reviewing final project success. These were given priorities based on the weight assigned to them during the ranking process, although since the scale ranged from P1-P10 instead of 1-3 stars, we were able to create more depth within our aspect ranking. 
   
-The full PRD can be found in **Appendix C: Project Requirements Document**
+The full PRD can be found in [**Appendix C: Project Requirements Document**](https://egr314-team201.github.io/Assignments/Product-Requirements/)
 
 Overall the User Needs taught us alot about what we should prioritize during the future steps of the project. We learned that portability was a very important feature that many users want with their product. However, on that same spectrum, the device needs to be stable enough to not constantly move around on a windy day. Another important feature that was a common want throughout the reviews was that they wanted to be able to see everything on their phone. Whether that be trends, battery status, or the current status of what is happening users want that information to be easily accessible. These are all very important aspects we are going to make sure are included when our team goes into the development phase.
 
@@ -247,7 +249,7 @@ After we decided on our idea we needed to determine the subsystems and how the i
 
 <p align="center">Figure L: Block Diagram</p>
 
-On the block diagram, we have the Temperature and Humidity sensors that use I2C and SPI which fulfill the sensor requirements. We have a motor driver that has bidirectional capability and uses SPI which fulfills the Actuation Requirements. We also have UART communication to the ESP32 module which is also how we will transmit over Wifi. Then we also have the microcontroller that will control the entire system that we picked in the Component Selection part of the process. Each pin of the microcontroller that will be used is described on the diagram, with the specific pin and functionality, from clock pins to digital outputs. We also have a button that serves as a reset button that when pressed will send the device back to default mode. We also have an RGB Led which makes a fun little indicator. This feature is not a part of the project requirements but is there to enhance the experience and provide additional information to the user about the state of the device. The full Block Diagram is located in **Appendix D: Block Diagram**
+On the block diagram, we have the Temperature and Humidity sensors that use I2C and SPI which fulfill the sensor requirements. We have a motor driver that has bidirectional capability and uses SPI which fulfills the Actuation Requirements. We also have UART communication to the ESP32 module which is also how we will transmit over Wifi. Then we also have the microcontroller that will control the entire system that we picked in the Component Selection part of the process. Each pin of the microcontroller that will be used is described on the diagram, with the specific pin and functionality, from clock pins to digital outputs. We also have a button that serves as a reset button that when pressed will send the device back to default mode. We also have an RGB Led which makes a fun little indicator. This feature is not a part of the project requirements but is there to enhance the experience and provide additional information to the user about the state of the device. The full Block Diagram is located in [**Appendix D: Block Diagram**](https://egr314-team201.github.io/Assignments/Design-Ideation/)
 
 ## Microcontroller Selection:
 
@@ -273,7 +275,7 @@ These factors influenced our choice, along with the stated course project requir
 
 <p align="center">Figure M: PIC18F27Q10 MCU, SOIC package</p>
 
-This IC met all constraints and further criteria our team established, with two MSSP ports, two UART channels, and enough GPIO pins to drive all external peripherals our design demanded. One major advantage of this MCU over other options is its ease of implementation with the existing work our team has accomplished in the course using the Curiosity Nano Development board, which features the PIC18F47Q10, in the same device family as our selected microcontroller.  The two MCUs feature the exact same set of peripherals, differing only in total pin count and ADC channels. The reduction in ADC channels is irrelevant to our design, and by reducing the total pin count, we also reduce the footprint of our chip on our final PCB. Choosing this microcontroller allows for seamless integration of code already written by our team during homeworks, ICCs, and labs, while reducing the unneeded features from the PIC18F47Q10 Curiosity Nano development board. Since the datasheet of this MCU is the same as the microcontroller used in class, our team is already familiar with navigating the datasheet for examples and pinouts. This makes the PIC18F27Q10 a compelling choice for serving as the main brain of our sensor array. The full comparison of the PIC18F27Q10 between two other alternatives, the PIC18F45Q10 and the PIC16F15376, can be found in **Appendix E: Microcontroller selection.**
+This IC met all constraints and further criteria our team established, with two MSSP ports, two UART channels, and enough GPIO pins to drive all external peripherals our design demanded. One major advantage of this MCU over other options is its ease of implementation with the existing work our team has accomplished in the course using the Curiosity Nano Development board, which features the PIC18F47Q10, in the same device family as our selected microcontroller.  The two MCUs feature the exact same set of peripherals, differing only in total pin count and ADC channels. The reduction in ADC channels is irrelevant to our design, and by reducing the total pin count, we also reduce the footprint of our chip on our final PCB. Choosing this microcontroller allows for seamless integration of code already written by our team during homeworks, ICCs, and labs, while reducing the unneeded features from the PIC18F47Q10 Curiosity Nano development board. Since the datasheet of this MCU is the same as the microcontroller used in class, our team is already familiar with navigating the datasheet for examples and pinouts. This makes the PIC18F27Q10 a compelling choice for serving as the main brain of our sensor array. The full comparison of the PIC18F27Q10 between two other alternatives, the PIC18F45Q10 and the PIC16F15376, can be found in [**Appendix E: Microcontroller Selection**](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
 
 ## Component Selection:
 
@@ -287,7 +289,7 @@ After we determined what subsystems we wanted to do and how the product was goin
 
 4. Must be able to ship immediately 
 
-After we determined these general requirements we each went to research our own subsystem. Below we have the 6 most critical parts of our subsystem and our rationale behind why we chose them.
+After we determined these general requirements we each went to research our own subsystem. Below we have the 6 most critical parts of our subsystem and our rationale behind why we chose them. The Full Assignment can be found in [**Appendix F: Component Selection**](https://egr314-team201.github.io/Assignments/component-selection/)
 
 **Temperature Sensor:**
 
@@ -327,7 +329,7 @@ After we chose all of our components we needed to make sure that they fit the po
 
 <p align="center">Figure S: Power Budget</p>
 
-Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily.
+Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily. The full Power budget can be found in [**Appendix G: Power Budget**](https://egr314-team201.github.io/Assignments/power-budget/)
 
 ## Hardware Proposal:
 
