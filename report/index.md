@@ -529,7 +529,7 @@ During all of these steps, the variables and information will be constantly prin
 
 ## Appendix D: Block Diagram
 
-[Block Diagram](https://egr314-team201.github.io/Assignments/Design-Ideation/)
+[Block Diagram](https://github.com/EGR314-Team201/egr314-team201.github.io/blob/main/Assignments/block-diagram/index.md)
 
 ## Appendix E: Microcontroller Selection
 
