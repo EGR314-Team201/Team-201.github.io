@@ -6,7 +6,7 @@ Title: Bill of Materials
 
 <div style="text-align: center">  
 
-<img src="media/Team201BOM.jpg" width="50%"><br>  
+<img src="media/Team201BOM.jpg" width="100%"><br>  
 
 </div>
 
