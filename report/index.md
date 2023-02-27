@@ -375,7 +375,7 @@ We decided to use the same motor driver as we used in a previous assignment due 
 
 <div style="text-align: center">  
 
-<img src="media/MotorImage.jpg" width="50%"><br>  
+<img src="media/MotorImage.png" width="50%"><br>  
 
 </div>
 
