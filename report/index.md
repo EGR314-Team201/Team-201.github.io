@@ -487,7 +487,7 @@ During all of these steps, the variables and information will be constantly prin
 
 <div style="text-align: center">  
 
-<img src="media/FigureY.jpg" width="50%"><br>  
+<img src="media/FigureYactual.png" width="50%"><br>  
 
 </div>
 
