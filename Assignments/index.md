@@ -12,15 +12,17 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Product Requirements (1/18/2023)](https://egr314-team201.github.io/Assignments/Product-Requirements/)
 
-[Component Selection (2/22/2023)](https://egr314-team201.github.io/Assignments/component-selection/)
-
 [Design Ideation (1/20/2023)](https://egr314-team201.github.io/Assignments/Design-Ideation/)
 
-[Block Diagram (2/25/2023)](https://egr314-team201.github.io/Assignments/block-diagram/)
+[Block Diagram (1/30/2023)](https://egr314-team201.github.io/Assignments/block-diagram/)
 
-[Software Proposal (2/22/2023)](https://egr314-team201.github.io/Assignments/software-proposal/)
+[Component Selection (2/1/2023)](https://egr314-team201.github.io/Assignments/component-selection/)
 
-[Microcontroller Selection (2/25/2023)](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
+[Power Budget (2/1/2023)](https://egr314-team201.github.io/Assignments/power-budget/)
 
-[Power Budget (2/26/2023)](https://egr314-team201.github.io/Assignments/power-budget/)
+[Microcontroller Selection (2/8/2023)](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
+
+[Software Proposal (2/15/2023)](https://egr314-team201.github.io/Assignments/software-proposal/)
+
+
 
