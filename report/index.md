@@ -15,6 +15,10 @@ title: Report
 
 <p align="center"><strong>Submission Date: 2/27/2023</strong></p>
 
+## Introduction
+
+Our team seeks to design a weather data collection device able to collect a variety of weather-related data such as temperature, humidity, atmospheric pressure, and wind speed through the use of surface mount sensors utilizing a variety of communication protocols. Throughout the semester we will be custom-creating a schematic and a PCB and having it manufactured. We will be using programs such as Cadence and Github to create our deliverables. The completed deliverable will be presented at the innovation showcase to a variety of industry representatives.
+
 ## Team Organization:
 
 The following sections will only cover the Team Charter and Mission Statement. The rest of the Team Organization can be found in [**Appendix A: Team Organization Assignment**](https://egr314-team201.github.io/Assignments/TeamOrganization/)
@@ -387,6 +391,8 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
 
+The Final Bill of Materials can be Found in Appendix G
+
 **Power Budget:**
 
 After we chose all of our components we needed to make sure that they fit the power constraints that we were assigned at the beginning of the project. Our final power budget is listed below in **Figure S.**
@@ -403,7 +409,7 @@ After we chose all of our components we needed to make sure that they fit the po
 
 <p align="center">Figure S: Power Budget</p>
 
-Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily. The full Power budget can be found in [**Appendix G: Power Budget**](https://egr314-team201.github.io/Assignments/power-budget/)
+Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily. The full Power budget can be found in [**Appendix H: Power Budget**](https://egr314-team201.github.io/Assignments/power-budget/)
 
 ## Hardware Proposal:
 
@@ -521,6 +527,10 @@ During all of these steps, the variables and information will be constantly prin
 
 [Component Selection](https://egr314-team201.github.io/Assignments/component-selection/)
 
-## Appendix G: Power Budget
+## Appendix G: Bill of Materials
+
+[Bill of Materials]()
+
+## Appendix H: Power Budget
 
 [Power Budget](https://egr314-team201.github.io/Assignments/power-budget/)
