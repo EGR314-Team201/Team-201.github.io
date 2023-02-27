@@ -13,7 +13,7 @@ title: Report
 
 <p align="center"><strong>Aiden Lynch, Finnton Wentworth, Richard Kovalcik, Glen Stevens</strong></p>
 
-<p align="center"><strong>Submission Date: 1/23/2023</strong></p>
+<p align="center"><strong>Submission Date: 2/27/2023</strong></p>
 
 ## Team Organization:
 
@@ -440,11 +440,9 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center">  
 
-[<img src="media/teamschematic.png" width = "50%">](egr314-team201.github.io/report/media/Team201Schematic.pdf)
+<img src="media/teamschematic.png" width = "50%">
  
-  <br>  
-
- </div>
+</div>
 
 </figure>
 
