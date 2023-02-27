@@ -342,7 +342,7 @@ We ultimately decided on this sensor in **Figure N** due to its large range of t
 
 <div style="text-align: center">  
 
-<img src="media/FigureO.jpg" width="50%"><br>  
+<img src="media/HumidityImage.png" width="50%"><br>  
 
 </div>
 
@@ -359,7 +359,7 @@ We ultimately decided on the sensor in **Figure O** due to its reliability. The 
 
 <div style="text-align: center">  
 
-<img src="media/MotorDriver.jpg" width="50%"><br>  
+<img src="media/MotorDriverImage.png" width="50%"><br>  
 
 </div>
 
