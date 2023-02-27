@@ -375,7 +375,7 @@ We decided to use the same motor driver as we used in a previous assignment due 
 
 <div style="text-align: center">  
 
-<img src="media/Motors.jpg" width="50%"><br>  
+<img src="media/MotorImage.jpg" width="50%"><br>  
 
 </div>
 
@@ -388,6 +388,15 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 **Voltage Regulator:**
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/VoltageRegulator.png" width="50%"><br>  
+
+</div>
+
+</figure>
 
 The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
 
