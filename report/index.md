@@ -398,9 +398,12 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 </figure>
 
+<p align="center">Figure R: L6981N33DR</p>
+
+
 The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
 
-The Final Bill of Materials can be Found in Appendix G
+The Final Bill of Materials can be Found in [**Appendix G: Bill of Materials**](https://egr314-team201.github.io/Assignments/Bill-of-Materials/)
 
 **Power Budget:**
 
