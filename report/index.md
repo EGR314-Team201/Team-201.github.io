@@ -303,15 +303,21 @@ We ultimately decided on the sensor in **Figure O** due to its reliability. The 
 
 **Motor Driver:**
 
-Figure P:
+
+
+<p align="center">Figure P: 1IFX9201SGAUMA1</p>
+
+We decided to use the same motor driver as we used in a previous assignment due to having prior experience using it and its SPI capabilities. This motor driver only has one half-bridge, but that is sufficient for our purposes as we are only using one motor to actuate the dome. Due to its lower cost than the other motor drivers, we were able to order extras in case we damage it.
 
 **Motors:**
 
-Figure Q:
+<p align="center">Figure Q: MOT-KM NJSC-12-A DC brushed motor</p>
+
+We used this motor because we already have it. It uses 5v, which we can supply separately from the battery. It has high torque and rotates relatively slowly, allowing us to control the actuation with less danger of burning out the motor or damaged the dome.
+
 
 **Voltage Regulator:**
 
-<p align="center">Figure R: L6981N33DR</p>
 
 The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
 
@@ -360,20 +366,31 @@ During all of these steps, the variables and information will be constantly prin
 <p align="center">Figure Y: MCC Classic Pin Assignments</p>
 
 ## Appendix A: Team Organization
+
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
   
   
 ## Appendix B: User Needs and Benchmarking
+
 [User Needs and Benchmarking](https://egr314-team201.github.io/Assignments/User-Needs/)
   
   
 ## Appendix C: Project Requirements Document
+
 [Project Requirements Document](https://egr314-team201.github.io/Assignments/Product-Requirements/)
 
 ## Appendix D: Block Diagram
 
+[Block Diagram](https://egr314-team201.github.io/Assignments/Design-Ideation/)
+
 ## Appendix E: Microcontroller Selection
+
+[Microcontroller Selection](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
 
 ## Appendix F: Component Selection
 
+[Component Selection](https://egr314-team201.github.io/Assignments/component-selection/)
+
 ## Appendix G: Power Budget
+
+[Power Budget](https://egr314-team201.github.io/Assignments/power-budget/)
