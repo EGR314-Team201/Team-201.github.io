@@ -4,7 +4,7 @@ Title: Product Requirements
 
 # Product Requirements
 
-Project: Weather Sensor System
+Project: Environmental Condition Sensor Array
 
 Team 201: Aiden Lynch, Finnton Wentworth, Richard Kovalcik, Glen Stevens
 
