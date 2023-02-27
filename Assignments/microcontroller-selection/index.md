@@ -42,4 +42,17 @@ Title: Microcontroller Selection
 
 </div>
 
+  
+  
+# MCC Pin configuration
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureYactual.png" width="100%"><br>  
+
+</div>
+
 </figure>
