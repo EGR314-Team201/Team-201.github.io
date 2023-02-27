@@ -538,7 +538,7 @@ During all of these steps, the variables and information will be constantly prin
 
 ## Appendix G: Bill of Materials
 
-[Bill of Materials]()
+[Bill of Materials](https://egr314-team201.github.io/Assignments/Bill-of-Materials/)
 
 ## Appendix H: Power Budget
 
