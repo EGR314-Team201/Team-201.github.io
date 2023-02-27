@@ -440,15 +440,26 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center">  
 
-<img src="media/FigureV.jpg" width="50%"><br>  
+[<img src="media/teamschematic.png" width = "50%">](egr314-team201.github.io/report/media/Team201Schematic.pdf)
+ 
+  <br>  
 
-</div>
+ </div>
 
 </figure>
 
+
 <p align="center">Figure V: Team Schematic</p>
-'
-**Placeholder Image**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureV.jpg" width="50%"><br>  
+
+ </div>
+
+</figure>
 
 <p align="center">Figure W: Team PCB</p>
 
