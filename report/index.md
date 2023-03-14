@@ -431,7 +431,7 @@ After we selected our components we then were able to create the schematic for o
 
 <div style="text-align: center">  
 
-<img src="media/FigureT.jpg" width="50%"><br>  
+<img src="media/FigureT.jpg" width="80%"><br>  
 
 </div>
 
@@ -458,7 +458,7 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center">  
 
-<img src="media/teamschematic.png" width = "50%">
+<img src="media/teamschematic.png" width = "80%">
  
 </div>
 
@@ -471,7 +471,7 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center">  
 
-<img src="media/FigureV.jpg" width="50%"><br>  
+<img src="media/FigureV.jpg" width="80%"><br>  
 
  </div>
 
