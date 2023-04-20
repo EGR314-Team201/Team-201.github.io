@@ -130,7 +130,7 @@ Title: Component Selection
 
 |**Solution**|**Pros**|**Cons**|
 |:----------:|:------:|:------:|
-|<figure class="image"><div style="text-align: center"><img src="media/driver3.png" width="25%" height="50%" ><br></div></figure>|3 half bridges  |Needs 4.5v minimum supply|
+|<figure class="image"><img src="media/driver3.png" width="25%" height="50%" ><br></figure>|3 half bridges  |Needs 4.5v minimum supply|
 |Option 3|Multiple load types|Relatively expensive|
 |IC HALF-BRIDGE DRVR SPI 18QFN|Has more fault protection|Needs a price quote before orderin(more lead time)|
 |Need to get price quoted|||
