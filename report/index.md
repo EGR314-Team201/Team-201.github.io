@@ -251,11 +251,31 @@ After our Checkpoint 1 presentation we decided to sit down and really evaluate h
 
 <p align="center">Figure K: Selected Design Idea</p>
 
-With this idea we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature reaches a certain value, the motor in the center turns the dome so it is a completely sealed area and prevents any future damage to the device. In the following sections, we will be going into more depth on the specifics of our design.
+With this idea we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature reaches a certain value, the motor in the center turns the dome so it is a completely sealed area and prevents any future damage to the device. The idea would be that this would be a stationary dome that would sit by a specific area and give constant readings about temperature and humidity. 
+
+Througout the following weeks we learned more about what we could and could not do with our design. We managed to have a similar idea 
+
+TALK ABOUT CHANGES TO SELECTED DESIGN
+
+After many prototypes we came up with our final selected design which can be seen in **Figure L**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure L: Final Design</p>
+
+In the following sections, we will be going into more depth on the specifics of our design.
 
 ## Block Diagram:
 
-After we decided on our idea we needed to determine the subsystems and how the idea will operate as a whole. To do this we looked at the individual parts we determined we needed to make this work and split them up. While we did this we referenced the project requirements as well and made sure every part fit the project requirements. The full block diagram which is in **Figure L** has been constantly updated during our project to showcase the most current version.
+After we decided on our idea we needed to determine the subsystems and how the idea will operate as a whole. To do this we looked at the individual parts we determined we needed to make this work and split them up. While we did this we referenced the project requirements as well and made sure every part fit the project requirements. The full block diagram which is in **Figure M** has been constantly updated during our project to showcase the most current version.
 
 <figure class="image">  
 
@@ -267,7 +287,7 @@ After we decided on our idea we needed to determine the subsystems and how the i
 
 </figure>
 
-<p align="center">Figure L: Block Diagram</p>
+<p align="center">Figure M: Block Diagram</p>
 
 On the block diagram, we have the Temperature and Humidity sensors that both utilize I2C which fulfill the sensor requirements. We have a motor driver that has bidirectional capability and uses SPI which fulfills the Actuation Requirements. We also have UART communication to the ESP32 module which is also how we will transmit over Wifi. Then we also have the microcontroller that will control the entire system that we picked in the Component Selection part of the process. Each pin of the microcontroller that will be used is described on the diagram, with the specific pin and functionality, from clock pins to digital outputs. We also have a button that serves as a reset button that when pressed will send the device back to default mode. We also have an RGB Led which makes a fun little indicator. This feature is not a part of the project requirements but is there to enhance the experience and provide additional information to the user about the state of the device. The full Block Diagram is located in [**Appendix D: Block Diagram**](https://egr314-team201.github.io/Assignments/block-diagram/)
 
@@ -291,7 +311,7 @@ Our team also decided on additional peripherals that would permit for greater fl
 
 4. Expansive internal memory for allowing for large program sizes 
 
-These factors influenced our choice, along with the stated course project requirements, and our team settled on the PIC18F27Q10, shown below in **Figure M**, in the SOIC package form.
+These factors influenced our choice, along with the stated course project requirements, and our team settled on the PIC18F27Q10, shown below in **Figure N**, in the SOIC package form.
 
 <figure class="image">  
 
@@ -304,7 +324,7 @@ These factors influenced our choice, along with the stated course project requir
 </figure>
 
 
-<p align="center">Figure M: PIC18F27Q10 MCU, SOIC package</p>
+<p align="center">Figure N: PIC18F27Q10 MCU, SOIC package</p>
 
 This IC met all constraints and further criteria our team established, with two MSSP ports, two UART channels, and enough GPIO pins to drive all external peripherals our design demanded. One major advantage of this MCU over other options is its ease of implementation with the existing work our team has accomplished in the course using the Curiosity Nano Development board, which features the PIC18F47Q10, in the same device family as our selected microcontroller.  The two MCUs feature the exact same set of peripherals, differing only in total pin count and ADC channels. The reduction in ADC channels is irrelevant to our design, and by reducing the total pin count, we also reduce the footprint of our chip on our final PCB. Choosing this microcontroller allows for seamless integration of code already written by our team during homeworks, ICCs, and labs, while reducing the unneeded features from the PIC18F47Q10 Curiosity Nano development board. Since the datasheet of this MCU is the same as the microcontroller used in class, our team is already familiar with navigating the datasheet for examples and pinouts. This makes the PIC18F27Q10 a compelling choice for serving as the main brain of our sensor array. The full comparison of the PIC18F27Q10 between two other alternatives, the PIC18F45Q10 and the PIC16F15376, can be found in [**Appendix E: Microcontroller Selection**](https://egr314-team201.github.io/Assignments/microcontroller-selection/)
 
@@ -332,9 +352,9 @@ After we determined these general requirements we each went to research our own 
 
 </figure>
 
-<p align="center">Figure N: TC74A4-3.3VCTTR</p>
+<p align="center">Figure O: TC74A4-3.3VCTTR</p>
 
-We ultimately decided on this sensor in **Figure N** due to its large range of temperatures. This allows the user to take this product with them to whichever climate they go to and still be able to utilize it. Another aspect we enjoyed about the product was how spaced out the pins were which would make it easier to solder without accidentally bridging the component. It was also very inexpensive which allowed us to order many in case of a problem with a sensor. This component also greatly fits every component requirement we created at the start.
+We ultimately decided on this sensor in **Figure O** due to its large range of temperatures. This allows the user to take this product with them to whichever climate they go to and still be able to utilize it. Another aspect we enjoyed about the product was how spaced out the pins were which would make it easier to solder without accidentally bridging the component. It was also very inexpensive which allowed us to order many in case of a problem with a sensor. This component also greatly fits every component requirement we created at the start.
 
 **Humidity Sensor:**
 
@@ -349,9 +369,9 @@ We ultimately decided on this sensor in **Figure N** due to its large range of t
 </figure>
 
 
-<p align="center">Figure O: HIH6130-021-001</p>
+<p align="center">Figure P: HIH6130-021-001</p>
 
-We ultimately decided on the sensor in **Figure O** due to its reliability. The chip comes with many useful additions. It contains a built-in filter that protects the sensor from any contaminants which is very useful in a place such as a closet where dust can commonly be found. It also has a built-in condensation resistance which will be very useful for not having to replace the sensor which is an important feature to our users. It also can survive in a large number of climates and fits all of our predetermined general requirements.
+We ultimately decided on the sensor in **Figure P** due to its reliability. The chip comes with many useful additions. It contains a built-in filter that protects the sensor from any contaminants which is very useful in a place such as a closet where dust can commonly be found. It also has a built-in condensation resistance which will be very useful for not having to replace the sensor which is an important feature to our users. It also can survive in a large number of climates and fits all of our predetermined general requirements.
 
 **Motor Driver:**
 
@@ -365,7 +385,7 @@ We ultimately decided on the sensor in **Figure O** due to its reliability. The 
 
 </figure>
 
-<p align="center">Figure P: 1IFX9201SGAUMA1</p>
+<p align="center">Figure Q: 1IFX9201SGAUMA1</p>
 
 We decided to use the same motor driver as we used in a previous assignment due to having prior experience using it and its SPI capabilities. This motor driver only has one half-bridge, but that is sufficient for our purposes as we are only using one motor to actuate the dome. Due to its lower cost than the other motor drivers, we were able to order extras in case we damage it.
 
@@ -381,7 +401,7 @@ We decided to use the same motor driver as we used in a previous assignment due 
 
 </figure>
 
-<p align="center">Figure Q: MOT-KM NJSC-12-A DC brushed motor</p>
+<p align="center">Figure R: MOT-KM NJSC-12-A DC brushed motor</p>
 
 We used this motor because we already have it. It uses 5v, which we can supply separately from the battery. It has high torque and rotates relatively slowly, allowing us to control the actuation with less danger of burning out the motor or damaged the dome.
 
@@ -398,16 +418,16 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 </figure>
 
-<p align="center">Figure R: L6981N33DR</p>
+<p align="center">Figure S: L6981N33DR</p>
 
 
-The L6981N33DR, shown in **Figure R,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
+The L6981N33DR, shown in **Figure S,** was chosen due the excellent maximum current output and expansive datasheet, which was complete with application schematics and performance diagrams. It also features two possible operation modes that allowed our team to tailor the device to our needs during the subsystem design portion of the project. From our power budget, we confirmed that the 1.5 amp max output of this device would be plenty for our subsystem’s demands. 
 
 The Final Bill of Materials can be Found in [**Appendix G: Bill of Materials**](https://egr314-team201.github.io/Assignments/Bill-of-Materials/)
 
 **Power Budget:**
 
-After we chose all of our components we needed to make sure that they fit the power constraints that we were assigned at the beginning of the project. Our final power budget is listed below in **Figure S.**
+After we chose all of our components we needed to make sure that they fit the power constraints that we were assigned at the beginning of the project. Our final power budget is listed below in **Figure T.**
 
 <figure class="image">  
 
@@ -419,13 +439,13 @@ After we chose all of our components we needed to make sure that they fit the po
 
 </figure>
 
-<p align="center">Figure S: Power Budget</p>
+<p align="center">Figure T: Power Budget</p>
 
 Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily. The full Power budget can be found in [**Appendix H: Power Budget**](https://egr314-team201.github.io/Assignments/power-budget/)
 
-## Hardware Proposal:
+## Hardware Implementation:
 
-After we selected our components we then were able to create the schematic for our final design. To do this we each decided to take our individual subsystems and design those first. We utilized the datasheets and the lessons from our Engineering 304 and 314 classes. After we had an idea of what our final subsystem circuit would look like we decided to verify them on some custom PCBs. To start we designed our subsystem schematic in Cadence’s Capture CIS. While designing we had to create custom symbols and PCB Footprints to represent the parts that we picked during Component Selection. Almost every single component listed in Component Selection needed a custom footprint which we have in a shared folder that will be for the Hardware Proposal and the Final Hardware Implementation. While we were designing we also included the ESP32 and the OLED screen which fulfilled the last 2 parts of the Project Requirements that have not been mentioned. After that was all sorted we designed our individual PCBs in Cadence’s PCB Editor and sent them to manufacturing. The Microcontroller individual subsystem which was created by Finnton Wentworth is shown in **Figure T** and **Figure U.**
+After we selected our components we then were able to create the schematic for our final design. To do this we each decided to take our individual subsystems and design those first. We utilized the datasheets and the lessons from our Engineering 304 and 314 classes. After we had an idea of what our final subsystem circuit would look like we decided to verify them on some custom PCBs. To start we designed our subsystem schematic in Cadence’s Capture CIS. While designing we had to create custom symbols and PCB Footprints to represent the parts that we picked during Component Selection. Almost every single component listed in Component Selection needed a custom footprint which we have in a shared folder that will be for the Hardware Proposal and the Final Hardware Implementation. While we were designing we also included the ESP32 and the OLED screen which fulfilled the last 2 parts of the Project Requirements that have not been mentioned. After that was all sorted we designed our individual PCBs in Cadence’s PCB Editor and sent them to manufacturing. The Microcontroller individual subsystem which was created by Finnton Wentworth is shown in **Figure U** and **Figure V.**
 
 <figure class="image">  
 
@@ -437,7 +457,7 @@ After we selected our components we then were able to create the schematic for o
 
 </figure>
 
-<p align="center">Figure T: Microcontroller Schematic</p>
+<p align="center">Figure U: Microcontroller Schematic</p>
 
 
 <figure class="image">  
@@ -450,9 +470,9 @@ After we selected our components we then were able to create the schematic for o
 
 </figure>
 
-<p align="center">Figure U: Microcontroller PCB</p>
+<p align="center">Figure V: Microcontroller PCB</p>
 
-After the PCBs were printed we populated them with the components that we ordered in Component Selection. Once we verified that they all worked as intended we met up together and decided to start designing the team schematic. We made any last-minute changes we wanted to make to our individual schematics and then imported them all onto a singular file. One of the key priorities we had while designing our Team Schematic was that we wanted it to be easy to follow. We wanted to have anybody with no prior knowledge of our project to be able to look at it and understand exactly how it worked. A very important part of our project is I2C and SPI communication. To ensure that these worked we made sure that there were pullup Resistors on the I2C bus per the I2C communication specifications, to prevent floating voltages that could cause data corruption. We also made sure to follow the recommended protocols for SPI that were listed on the Microcontroller Datasheet. Our team also included header pins to allow our chip to be programmable using ICSP while it is soldered to the board. The header pins that allow for this are labeled J11 for MCLR and J12 for ICSPDAT and ICSPCLK. After we had our initial design we wanted many different perspectives. We had the teaching team, our peers, and industry professionals review our schematic to make sure it was as thorough and as accurate as possible. After we implemented all of our feedback we designed the Team PCB and had it manufactured. The Team Schematic and Team PCB can be found in Figure V and Figure W.
+After the PCBs were printed we populated them with the components that we ordered in Component Selection. Once we verified that they all worked as intended we met up together and decided to start designing the team schematic. We made any last-minute changes we wanted to make to our individual schematics and then imported them all onto a singular file. One of the key priorities we had while designing our Team Schematic was that we wanted it to be easy to follow. We wanted to have anybody with no prior knowledge of our project to be able to look at it and understand exactly how it worked. A very important part of our project is I2C and SPI communication. To ensure that these worked we made sure that there were pullup Resistors on the I2C bus per the I2C communication specifications, to prevent floating voltages that could cause data corruption. We also made sure to follow the recommended protocols for SPI that were listed on the Microcontroller Datasheet. Our team also included header pins to allow our chip to be programmable using ICSP while it is soldered to the board. The header pins that allow for this are labeled J11 for MCLR and J12 for ICSPDAT and ICSPCLK. After we had our initial design we wanted many different perspectives. We had the teaching team, our peers, and industry professionals review our schematic to make sure it was as thorough and as accurate as possible. After we implemented all of our feedback we designed the Alpha Team PCB and had it manufactured. The Alpha Team Schematic and Alpha Team PCB can be found in Figure W and Figure X.
 
 <figure class="image">  
 
@@ -465,7 +485,7 @@ After the PCBs were printed we populated them with the components that we ordere
 </figure>
 
 
-<p align="center">Figure V: Team Schematic</p>
+<p align="center">Figure W: Team Schematic</p>
 
 <figure class="image">  
 
@@ -477,11 +497,79 @@ After the PCBs were printed we populated them with the components that we ordere
 
 </figure>
 
-<p align="center">Figure W: Team PCB</p>
+<p align="center">Figure X: Team PCB</p>
 
-## Software Proposal:
+TALK ABOUT WHAT WE CHANGED
 
-After we designed our schematic we wanted to have a strong understanding of how the code will operate. To do that we decided to make a diagram that shows the flow of our entire system. We wanted to go very in-depth so that similar to the schematic anyone with no prior knowledge of our project will be able to get a solid understanding of how it will work. Our full Software Proposal is below in **Figure X.**
+Our Final Team Schematic can be found in **Figure Y.** 
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure Y: Final Team Schematic</p>
+
+We then had to reflect these changes in our final V2 Board. The front of our cadence model can be found in **Figure Z** while the back of our cadence model can be shown in **Figure AA.**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure Z: Front Cadence Model</p>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AA: Back Cadence Model</p>
+
+After that we then soldered our components onto our team board. Our final V2 PCB pictures can be found in **Figure AB** and **Figure AC.**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AB: Back Cadence Model</p>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AC: Back Cadence Model</p>
+
+## Software Implementation:
+
+After we designed our schematic we wanted to have a strong understanding of how the code will operate. To do that we decided to make a diagram that shows the flow of our entire system. We wanted to go very in-depth so that similar to the schematic anyone with no prior knowledge of our project will be able to get a solid understanding of how it will work. Our inital Software Proposal is below in **Figure AD.**
 
 <figure class="image">  
 
@@ -493,7 +581,7 @@ After we designed our schematic we wanted to have a strong understanding of how 
 
 </figure>
 
-<p align="center">Figure X: Software Proposal</p>
+<p align="center">Figure AD: Software Proposal</p>
   
 The first block we have is the Main Loop which is a general overview of how the entire system will operate. The main loop’s first block is the Initialize System block where we set the variables that will be used through the code. It also provides some other start-up requirements that the program will need to operate. We then also Initialize the Interrupts which is a very important part of the Project Requirements. We then read the Temperature Sensor first due to the fact that the temperature sensor is just for data to notice trends. The temperature sensor will collect data and then send the values to PIC which will then in turn send the values to the OLED. This will be a constant stream of data that will be constantly being updated on the OLED Screen. The Humidity Sensor is similar but also is more crucial to the device. It starts off the same with how it receives the data and how it transmits to the OLED however it has the very interrupt. This is triggered when the sensor determines the humidity is in the upper half of the humidity range and when this occurs the interrupt will trigger. 
 
