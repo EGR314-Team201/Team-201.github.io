@@ -587,7 +587,25 @@ The first block we have is the Main Loop which is a general overview of how the 
 
 The last and most important block of the Software Diagram is the Output loop. There are two main instances in this block, when the humidity is greater than 50% and when it is below 50%. For the above 50% block the motor will turn on and the LED will flash red to indicate that the Dome is spinning shut. It will continue to do that until the first Limit Switch is depressed. When this happens the motor will turn on and the LED will switch to green to indicate that the motor is done. The other instance is when the humidity returns to an acceptable level. When this happens the motor will turn on in the other direction and the LED will flash red to indicate that the motor is moving. When the other Limit Switch is decompressed then the motor will shut off and the LED will flash back to green. If Humidity is currently not reading the LED will flash yellow to alert the user that there may be potential damage to the sensor. 
 
-During all of these steps, the variables and information will be constantly printing to the ESP32, which will publish to a MQTT server,  and to an OLED screen so that the user will be constantly aware of what is happening. This connects back to the user needs part where users would like to know what the values are so they could analyze the trends. Shown below in **Figure Y: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
+During all of these steps, the variables and information will be constantly printing to the ESP32, which will publish to a MQTT server,  and to an OLED screen so that the user will be constantly aware of what is happening. This connects back to the user needs part where users would like to know what the values are so they could analyze the trends. 
+
+TALK ABOUT WHAT WE CHANGED
+
+Our Final Software Implementation can be found in **Figure AE**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AE: Software Implementation</p>
+
+Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
 
 <figure class="image">  
 
@@ -599,7 +617,11 @@ During all of these steps, the variables and information will be constantly prin
 
 </figure>
 
-<p align="center">Figure Y: MCC Classic Pin Assignments</p>
+<p align="center">Figure AF: MCC Classic Pin Assignments</p>
+
+Our Final Code can be found below
+
+FINAL CODE
 
 ## Appendix A: Team Organization
 
