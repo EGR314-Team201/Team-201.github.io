@@ -631,7 +631,7 @@ For final checkoffs we needed to verify that everything was working. We needed t
 
 <div style="text-align: center">  
 
-<img src="media/" width="50%"><br>  
+<img src="media/SystemV.png" width="50%"><br>  
 
 </div>
 
