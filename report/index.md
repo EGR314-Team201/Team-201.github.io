@@ -553,7 +553,7 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 
 </figure>
 
-<p align="center">Figure AB: Back Cadence Model</p>
+<p align="center">Figure AB: Front of PCB</p>
 
 <figure class="image">  
 
@@ -565,7 +565,7 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 
 </figure>
 
-<p align="center">Figure AC: Back Cadence Model</p>
+<p align="center">Figure AC: Back of PCB</p>
 
 ## Software Implementation:
 
@@ -622,6 +622,36 @@ Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configurat
 Our Final Code can be found below
 
 FINAL CODE
+
+## System Verification:
+
+For final checkoffs we needed to verify that everything was working. We needed to verify that everything was reciving power and also that everything was able to be be programmed. After being to able to get everything working in tandem we were able to get fully verified and checked off. Our final System Verifcation Table can be found in **Figure AG**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AG: System Verification</p>
+
+## Lessons Learned:
+
+## Reccomendations For Future EGR314 Students
+
+1. Practice and Continue to Learn in C. Practicing the basics will allow for less time to be wasted on trying to fix simple coding errors.
+
+2. Read and Verify with the Data Sheet. Our team made a couple of mistakes because we did not fully read the datasheets such as ordering the wrong type of chip. Verifying before printing your PCB and ordering parts can save alot of time and hassle.
+
+3. Really be aware of how you want your project to operate from start to finish. This is really helpful for projects such as the software diagram where you need to have every action listed.
+
+4. Fully Understand the ICCs and the Homework. Alot of our project was based on the ICCs and HW so when we started designing and writing code we had a good starting point.
+
+5. Choose components with strong and detailed Data Sheets. The more information you have regarding a chip the better. The Data Sheet will be able to provide alot of useful tips that can help while debugging.
 
 ## Appendix A: Team Organization
 
