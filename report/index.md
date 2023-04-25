@@ -547,7 +547,7 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="media/PCBF.jpg" width="50%"><br>  
 
 </div>
 
@@ -559,7 +559,7 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="media/PCBB.jpg" width="50%"><br>  
 
 </div>
 
