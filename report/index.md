@@ -507,7 +507,7 @@ Our Final Team Schematic can be found in **Figure Y.**
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="Hardware.png" width="80%"><br>  
 
 </div>
 
