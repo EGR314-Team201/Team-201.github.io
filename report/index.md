@@ -499,6 +499,8 @@ After the PCBs were printed we populated them with the components that we ordere
 <p align="center">Figure X: Team PCB</p>
 
 
+We made a couple of changes to our final PCB. We condensed the programming header to be smaller and we also reorganized our board to make it smaller and more condensed. We also had to change the traces to the humidity sensor to be I2C related instead of the SPI traces we have currently. Overall it was pretty similar in terms of footprints and layout besides these final changes. Alot of our lessons were learned between alpha boards and V1 boards.
+
 
 Our Final Team Schematic can be found in **Figure Y.** 
 
