@@ -101,6 +101,15 @@ Title: Component Selection
 |$0.77|||
 |[Link to data sheet](https://www.kingbrightusa.com/images/catalog/SPEC/APHF1608LSEEQBDZGKC.pdf)|||
 
+|**Solution**|**Pros**|**Cons**|
+|:----------:|:------:|:------:|
+|<figure class="image"><img src="media/LED3.png" width="25%" height="50%" ><br></figure>|More diversity of color |Requires more wiring and more complicated programming  |
+|Option 3|Easier to Wire|Stuck to One Color which limits options|
+|CV94D-FCC-CYBB0B0E0WBYABB7A363|Bulbs |Cheaply Made and can easily burn out|
+|$0.44||Not very nice|
+|[Link to data sheet](https://www.google.com/url?q=https://assets.cree-led.com/a/ds/h/HB-CV94D-FCC.pdf&sa=D&source=docs&ust=1682975660257214&usg=AOvVaw2pk0UqCtCOjEcSNrG5dXzH)|||
+
+
 **Choice:** Option 2 APHF1608LSEEQBDZGKC
 **Rationale:** It allows for more diversity of color in letting the user see ranges. We can use custom ranges, for example: setting the LED to different colors based on a sensor reading, like temperature.
 
