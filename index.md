@@ -21,11 +21,11 @@ Hi! We are a group of various degrees of engineering students at Arizona State U
 
 To view our overall Project Report that contains all of our progress so far click the link below:
 
-[Project Report (Updated: 2/27/2023)](https://egr314-team201.github.io/report/)
+[Project Report (Updated: 5/1/2023)](https://egr314-team201.github.io/report/)
 
 To view our individual assignments click the link below:
 
-[Assignments (Updated: 2/27/2023)](https://egr314-team201.github.io/Assignments/)
+[Assignments (Updated: 5/1/2023)](https://egr314-team201.github.io/Assignments/)
 
 To view our Checkpoint Presentations click on the video below:
 
