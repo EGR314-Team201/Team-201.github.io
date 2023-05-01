@@ -14,17 +14,12 @@ Title: Software Implementation
 
 ## Topic Table
 
-<p align="center">
-  <embed src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/.pdf "   
-       type="application/pdf"
-       width = "600"
-       height = "600"/>
-</p>
 
-## Software Proposal
+
+## Software Diagram
 
 <p align="center">
-  <embed src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/.pdf " 
+    <embed src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/SoftwareImplementation.pdf "  
        type="application/pdf"
        width = "600"
        height = "600"/>
