@@ -54,6 +54,42 @@ To view our Checkpoint Presentations click on the video below:
 
 <p align="center">Checkpoint 2 Presentation</p>
 
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="report/media/Team 2.jpeg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Innovation Showcase</p>
+
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="report/media/Table 1.jpeg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="report/media/Table2.jpeg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Innovation Showcase Table</p>
+
 <style>
   .footer {
     display: none;
