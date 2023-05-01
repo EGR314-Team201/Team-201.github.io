@@ -11,8 +11,11 @@ Team 201
 
 Team Members: 
 [Aiden Lynch](https://www.linkedin.com/in/aiden-lynch-802b06116/)
+
 [Finnton Wentworth](https://www.linkedin.com/in/finnton-wentworth-8b2a65261/)
+
 [Glen Stevens](https://www.linkedin.com/in/glencstevens/)
+
 [Richard Kovalcik](https://www.linkedin.com/in/richard-kovalcik-49420b250/)
 
 ***
