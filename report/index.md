@@ -251,11 +251,10 @@ After our Checkpoint 1 presentation we decided to sit down and really evaluate h
 
 <p align="center">Figure K: Selected Design Idea</p>
 
-With this idea we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature reaches a certain value, the motor in the center turns the dome so it is a completely sealed area and prevents any future damage to the device. The idea would be that this would be a stationary dome that would sit by a specific area and give constant readings about temperature and humidity. 
+With this idea, we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature reaches a certain value, the motor in the center turns the dome so it is a completely sealed area and prevents any future damage to the device. The idea would be that this would be a stationary dome that would sit by a specific area and give constant readings about temperature and humidity. 
 
-Througout the following weeks we learned more about what we could and could not do with our design. We managed to have a similar idea 
-
-TALK ABOUT CHANGES TO SELECTED DESIGN
+Througout the following weeks we learned more about what we could and could not do with our design. We managed to have a similar idea with a revolving
+dome that would allow for protection from the outside environment. Additionally, we implemented an extrenal MQTT subscriber to fully highlight the capabilities of our final design.
 
 After many prototypes we came up with our final selected design which can be seen in **Figure L**
 
@@ -263,7 +262,7 @@ After many prototypes we came up with our final selected design which can be see
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="BoxLid.jpg" width="50%"><br>  
 
 </div>
 
