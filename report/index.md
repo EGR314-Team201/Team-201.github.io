@@ -43,39 +43,53 @@ Viewing market options in weather sensor equipment allowed our team to perform b
 
 Reading user reviews with the perspective of generating project features was most important to us. Since the scope of the project was fairly undefined with the exception of budget and the overarching requirements listed for the course, the team viewed amazon reviews, looking for requested features, as well as what the users viewed as extraneous on the products we reviewed. Looking for explicitly listed needs, as well as digging deeper into the wording of the reviews to see latent needs from the users. From these reviews, we generated a list of 103 needs, as seen in **Figure A**. 
 
-
-  
-
-<div style="text-align: center">  
-
-[<img alt="" width="600" src="reportphotos/jamboard1.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard1.jpg)
-
-</div>
+<figure class="image">  
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard2.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard2.jpg)
+<img src="reportphotos/jamboard1.jpg" width="50%"><br>  
 
 </div>
 
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/jamboard2.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
 
 <p align="center">Figure A: Full list of Generated Needs</p>
 
 From this full list, we sorted these needs into six different categories: Hardware, Software, Interactivity/User Experience, Customization, Manufacturing, and Safety. These categories were chosen based on the aspect sections we included in our Product Requirements Document which was written following the review of our sorted user needs. Shown below in **Figure B** is our sorted list for the Hardware section, and the full list of sorted needs can be found in Appendix B: User Needs and Benchmarking. 	
 
+<figure class="image">  
+
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard3.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard3.jpg)
+<img src="reportphotos/jamboard3.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure B: Hardware category of sorted user needs</p>
   
 From these sorted needs, our team ranked the needs into three separate weights, with one to three stars denoting importance. The weight of a specific need was chosen by our team, with the greatest ranking given to needs that were generated from project requirements and effective functionality, as these were non-negotiable features for our final deliverable. Without including the three star needs, our project would fail to meet stated requirements or would lack qualities that would make it a functional or usable product. Below in **Figure C** is the evolution of the Hardware section, now ranked. 
 
+<figure class="image">  
+
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard9.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard9.jpg)
+<img src="reportphotos/jamboard9.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
 
 <p align="center">Figure C: Ranked List of Hardware Needs</p>
 
@@ -96,38 +110,53 @@ Overall the User Needs taught us alot about what we should prioritize during the
 
 We initiated our design ideation by generating one hundred design ideas. These ideas can be viewed below in **Figure D.**
 
-  <div style="text-align: center">  
+<figure class="image">  
 
-[<img alt="" width="600" src="reportphotos/100concepts.jpg">](https://egr314-team201.github.io/report/reportphotos/100concepts.jpg)
+<div style="text-align: center">  
+
+<img src="reportphotos/100Concepts.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
   
 Idea Sortation and Ranking:
 Once we had generated our 100 design ideas, we proceeded to sort them into three categories. These categories being miscellaneous, weather balloon, and drone which can be viewed respectively in **Figure E**, **Figure F**, and **Figure G**. After this process, we ranked our ideas vertically from the most to least practical. A few of the aspects we looked for in practicality were ease of implementation, feasibility, and requirement satisfaction. 
 
+<figure class="image">  
+
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/MiscConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/MiscConcepts.jpg)
+<img src="reportphotos/MiscConcepts.jpg" width="50%"><br>  
 
 </div>
 
+</figure>
 
 <p align="center">Figure E: Miscellaneous</p>
 
+  
+<figure class="image">  
+
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/WeatherBalloonConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonConcepts.jpg)
+<img src="reportphotos/WeatherBalloonConcepts.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
   
 <p align="center">Figure F: Weather Balloon</p>
   
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/DroneConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/DroneConcepts.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/DroneConcepts.jpg" width="50%"><br>  
 
 </div>
 
+</figure>
 
 <p align="center">Figure G: Drone</p>
 
@@ -136,11 +165,15 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 Aiden Lynch was in charge of the Weather Balloon design concept. The fundamental idea is that we have a system attached to a balloon that will be able to sense multiple different environmental factors at different altitudes. See **Figure H** below for the picture of the figure and for a description of the device.
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/WeatherBalloonMockup.jpg">](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonMockup.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/WeatherBalloonMockup.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure H: Weather Balloon</p>
 
@@ -149,18 +182,26 @@ We have the balloon that will raise the device up in the sky to collect readings
 **Concept 2: Water Buoy**
 
 Finnton Wentworth visualized concept #2, a floating water based sensor array. The device would be able to collect a physical sample of water as well as transmitting various environmental data. 
-  
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/BuoyConceptA.png">](https://egr314-team201.github.io/report/reportphotos/BuoyConceptA.png)
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/BuoyConceptA.png" width="50%"><br>  
 
 </div>
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/BuoyConceptB.png">](https://egr314-team201.github.io/report/reportphotos/BuoyConceptB.png)
+</figure>
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/BuoyConceptB.png" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure I: Water Buoy </p>
 
@@ -172,12 +213,15 @@ The microcontroller and batteries will be stored in a sealed chamber within the 
 
 Glen Stevens was in charge of the Drone kit design concept. The idea was to create a kit that could be attached to a drone that would then read weather conditions as the drone flew around. See **Figure J** below for a model of the concept.
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/DroneMockup.jpg">](https://egr314-team201.github.io/report/reportphotos/DroneMockup.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="reportphotos/DroneMockup.jpg" width="50%"><br>  
 
 </div>
 
+</figure>
 
 <p align="center">Figure J: Drone Kit</p>
 
@@ -195,11 +239,15 @@ The wide range of design concepts we discussed and ideated as a team looked to a
 
 After our Checkpoint 1 presentation we decided to sit down and really evaluate how we were going to implement our project. We were at the time very confident that we were going to end up doing the Weather Balloon Idea. However, when we sat down and decided to implement the idea, the concept of the Balloon Budget and the safety of the device became fundamental problems that rendered our idea unusable. We could not ensure the protection of the device with our budget. After that revelation, we decided we had to rework our idea. We took the original idea that was the base of the balloon and then decided to make that a stationary object. Once we decided that the possibilities of what we could design expanded drastically. After many looks at our User Needs, Project Requirements Document, and our Ideas, we came up with the idea in **Figure K**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureK.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureK.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureK.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure K: Selected Design Idea</p>
 
@@ -210,11 +258,15 @@ dome that would allow for protection from the outside environment. To acheive th
 
 After many prototypes we came up with our final selected design which can be seen in **Figure L**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/BoxLid.jpg">](https://egr314-team201.github.io/report/reportphotos/BoxLid.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/BoxLid.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure L: Final Design</p>
 
@@ -224,11 +276,15 @@ In the following sections, we will be going into more depth on the specifics of 
 
 After we decided on our idea we needed to determine the subsystems and how the idea will operate as a whole. To do this we looked at the individual parts we determined we needed to make this work and split them up. While we did this we referenced the project requirements as well and made sure every part fit the project requirements. The full block diagram which is in **Figure M** has been constantly updated during our project to showcase the most current version.
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureL.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureL.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureL.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure M: Block Diagram</p>
 
@@ -256,11 +312,16 @@ Our team also decided on additional peripherals that would permit for greater fl
 
 These factors influenced our choice, along with the stated course project requirements, and our team settled on the PIC18F27Q10, shown below in **Figure N**, in the SOIC package form.
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureM.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureM.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureM.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
+
 
 <p align="center">Figure N: PIC18F27Q10 MCU, SOIC package</p>
 
@@ -280,11 +341,15 @@ After we determined what subsystems we wanted to do and how the product was goin
 
 After we determined these general requirements we each went to research our own subsystem. Below we have the 6 most critical parts of our subsystem and our rationale behind why we chose them. The Full Assignment can be found in [**Appendix F: Component Selection**](https://egr314-team201.github.io/Assignments/component-selection/)
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureN.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureN.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureN.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure O: TC74A4-3.3VCTTR</p>
 
@@ -292,11 +357,16 @@ We ultimately decided on this sensor in **Figure O** due to its large range of t
 
 **Humidity Sensor:**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/HumidityImage.png">](https://egr314-team201.github.io/report/reportphotos/HumidityImage.png)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/HumidityImage.png" width="50%"><br>  
 
 </div>
+
+</figure>
+
 
 <p align="center">Figure P: HIH6130-021-001</p>
 
@@ -304,23 +374,31 @@ We ultimately decided on the sensor in **Figure P** due to its reliability. The 
 
 **Motor Driver:**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/MotorDriverImage.jpg">](https://egr314-team201.github.io/report/reportphotos/MotorDriverImage.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/MotorDriverImage.png" width="50%"><br>  
 
 </div>
-  
+
+</figure>
+
 <p align="center">Figure Q: 1IFX9201SGAUMA1</p>
 
 We decided to use the same motor driver as we used in a previous assignment due to having prior experience using it and its SPI capabilities. This motor driver only has one half-bridge, but that is sufficient for our purposes as we are only using one motor to actuate the dome. Due to its lower cost than the other motor drivers, we were able to order extras in case we damage it.
 
 **Motors:**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/MotorImage.png">](https://egr314-team201.github.io/report/reportphotos/MotorImage.png)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/MotorImage.png" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure R: MOT-KM NJSC-12-A DC brushed motor</p>
 
@@ -329,11 +407,15 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 **Voltage Regulator:**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/VoltageRegulator.png">](https://egr314-team201.github.io/report/reportphotos/VoltageRegulator.png)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/VoltageRegulator.png" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure S: L6981N33DR</p>
 
@@ -346,12 +428,16 @@ The Final Bill of Materials can be Found in [**Appendix G: Bill of Materials**](
 
 After we chose all of our components we needed to make sure that they fit the power constraints that we were assigned at the beginning of the project. Our final power budget is listed below in **Figure T.**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureS.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureS.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureS.jpg" width="50%"><br>  
 
 </div>
-  
+
+</figure>
+
 <p align="center">Figure T: Power Budget</p>
 
 Listed within the power budget is a breakdown of voltage and current demands that our various sensors, motors, and drivers require. Fortunately, our design only requires two separate power rails, a positive 7.4-volt rail for driving our motor and feeding into the voltage regulator, and a positive 3.3-volt rail for all other circuitry from the regulator output. With this, our largest current demand comes from our motor, which at max will sink 550 mA during a stall. One challenge that our design poses are the need to drive a motor from a battery power supply, which has the potential to drain the battery quickly. Because of this, we chose a battery pack with a large amp hour rating and tested that the motor can be driven continuously using this supply. If we need to make the change to a wall supply, our design features a barrel jack connector that will allow us to switch easily. The full Power budget can be found in [**Appendix H: Power Budget**](https://egr314-team201.github.io/Assignments/power-budget/)
@@ -360,37 +446,55 @@ Listed within the power budget is a breakdown of voltage and current demands tha
 
 After we selected our components we then were able to create the schematic for our final design. To do this we each decided to take our individual subsystems and design those first. We utilized the datasheets and the lessons from our Engineering 304 and 314 classes. After we had an idea of what our final subsystem circuit would look like we decided to verify them on some custom PCBs. To start we designed our subsystem schematic in Cadence’s Capture CIS. While designing we had to create custom symbols and PCB Footprints to represent the parts that we picked during Component Selection. Almost every single component listed in Component Selection needed a custom footprint which we have in a shared folder that will be for the Hardware Proposal and the Final Hardware Implementation. While we were designing we also included the ESP32 and the OLED screen which fulfilled the last 2 parts of the Project Requirements that have not been mentioned. After that was all sorted we designed our individual PCBs in Cadence’s PCB Editor and sent them to manufacturing. The Microcontroller individual subsystem which was created by Finnton Wentworth is shown in **Figure U** and **Figure V.**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureT.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureT.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureT.jpg" width="80%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure U: Microcontroller Schematic</p>
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureU.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureU.jpg)
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/FigureU.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure V: Microcontroller PCB</p>
 
 After the PCBs were printed we populated them with the components that we ordered in Component Selection. Once we verified that they all worked as intended we met up together and decided to start designing the team schematic. We made any last-minute changes we wanted to make to our individual schematics and then imported them all onto a singular file. One of the key priorities we had while designing our Team Schematic was that we wanted it to be easy to follow. We wanted to have anybody with no prior knowledge of our project to be able to look at it and understand exactly how it worked. A very important part of our project is I2C and SPI communication. To ensure that these worked we made sure that there were pullup Resistors on the I2C bus per the I2C communication specifications, to prevent floating voltages that could cause data corruption. We also made sure to follow the recommended protocols for SPI that were listed on the Microcontroller Datasheet. Our team also included header pins to allow our chip to be programmable using ICSP while it is soldered to the board. The header pins that allow for this are labeled J11 for MCLR and J12 for ICSPDAT and ICSPCLK. After we had our initial design we wanted many different perspectives. We had the teaching team, our peers, and industry professionals review our schematic to make sure it was as thorough and as accurate as possible. After we implemented all of our feedback we designed the Alpha Team PCB and had it manufactured. The Alpha Team Schematic and Alpha Team PCB can be found in Figure W and Figure X.
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/teamschematic.png">](https://egr314-team201.github.io/report/reportphotos/teamschematic.png)
+<figure class="image">  
 
+<div style="text-align: center">  
+
+<img src="media/teamschematic.png" width = "80%">
+ 
 </div>
+
+</figure>
+
 
 <p align="center">Figure W: Team Schematic</p>
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureV.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureV.jpg)
+<figure class="image">  
 
-</div>
+<div style="text-align: center">  
+
+<img src="media/FigureV.jpg" width="80%"><br>  
+
+ </div>
+
+</figure>
 
 <p align="center">Figure X: Team PCB</p>
 
@@ -398,39 +502,55 @@ TALK ABOUT WHAT WE CHANGED
 
 Our Final Team Schematic can be found in **Figure Y.** 
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/Hardware.png">](https://egr314-team201.github.io/report/reportphotos/Hardware.png)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/Hardware.png" width="80%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure Y: Final Team Schematic</p>
 
 We then had to reflect these changes in our final V2 Board. The front of our cadence model can be found in **Figure Z** while the back of our cadence model can be shown in **Figure AA.**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureZ.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureZ.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure Z: Front Cadence Model</p>
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/FigureAA.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureAA.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure AA: Back Cadence Model</p>
 
 After that we then soldered our components onto our team board. Our final V2 PCB pictures can be found in **Figure AB** and **Figure AC.**
 
-<div style="text-align: center"> 
-  
-[<img alt="" width="600" src="reportphotos/PCBF.jpg">](https://egr314-team201.github.io/report/reportphotos/PCBF.jpg)
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/PCBF.jpg" width="50%"><br>  
 
 </div>
+
+</figure>
 
 <p align="center">Figure AB: Front of PCB</p>
 
