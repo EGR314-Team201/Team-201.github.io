@@ -48,13 +48,13 @@ Reading user reviews with the perspective of generating project features was mos
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard1.jpg" />](https://egr314-team201.github.io/report/reportphotos/jamboard1.jpg)
+[<img alt="" width="600" src="reportphotos/jamboard1.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard1.jpg)
 
 </div>
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard2.jpg" />](https://egr314-team201.github.io/report/reportphotos/jamboard2.jpg)
+[<img alt="" width="600" src="reportphotos/jamboard2.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard2.jpg)
 
 </div>
 
@@ -65,7 +65,7 @@ From this full list, we sorted these needs into six different categories: Hardwa
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard3.jpg" />](https://egr314-team201.github.io/report/reportphotos/jamboard3.jpg)
+[<img alt="" width="600" src="reportphotos/jamboard3.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard3.jpg)
 
 </div>
 
@@ -75,7 +75,7 @@ From these sorted needs, our team ranked the needs into three separate weights, 
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/jamboard9.jpg" />](https://egr314-team201.github.io/report/reportphotos/jamboard9.jpg)
+[<img alt="" width="600" src="reportphotos/jamboard9.jpg">](https://egr314-team201.github.io/report/reportphotos/jamboard9.jpg)
 
 <p align="center">Figure C: Ranked List of Hardware Needs</p>
 
@@ -98,7 +98,7 @@ We initiated our design ideation by generating one hundred design ideas. These i
 
   <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/100concepts.jpg" />](https://egr314-team201.github.io/report/reportphotos/100concepts.jpg)
+[<img alt="" width="600" src="reportphotos/100concepts.jpg">](https://egr314-team201.github.io/report/reportphotos/100concepts.jpg)
 
 </div>
   
@@ -107,7 +107,7 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/MiscConcepts.jpg" />](https://egr314-team201.github.io/report/reportphotos/MiscConcepts.jpg)
+[<img alt="" width="600" src="reportphotos/MiscConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/MiscConcepts.jpg)
 
 </div>
 
@@ -116,7 +116,7 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
 
 <div style="text-align: center">  
 
-[<img alt="" width="600" src="reportphotos/WeatherBalloonConcepts.jpg" />](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonConcepts.jpg)
+[<img alt="" width="600" src="reportphotos/WeatherBalloonConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonConcepts.jpg)
 
 </div>
   
@@ -124,7 +124,7 @@ Once we had generated our 100 design ideas, we proceeded to sort them into three
   
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/DroneConcepts.jpg" />](https://egr314-team201.github.io/report/reportphotos/DroneConcepts.jpg)
+[<img alt="" width="600" src="reportphotos/DroneConcepts.jpg">](https://egr314-team201.github.io/report/reportphotos/DroneConcepts.jpg)
 
 </div>
 
@@ -138,7 +138,7 @@ Aiden Lynch was in charge of the Weather Balloon design concept. The fundamental
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/WeatherBalloonMockup.jpg" />](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonMockup.jpg)
+[<img alt="" width="600" src="reportphotos/WeatherBalloonMockup.jpg">](https://egr314-team201.github.io/report/reportphotos/WeatherBalloonMockup.jpg)
 
 </div>
 
@@ -152,13 +152,13 @@ Finnton Wentworth visualized concept #2, a floating water based sensor array. Th
   
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/BuoyConceptA.png" />](https://egr314-team201.github.io/report/reportphotos/BuoyConceptA.png)
+[<img alt="" width="600" src="reportphotos/BuoyConceptA.png">](https://egr314-team201.github.io/report/reportphotos/BuoyConceptA.png)
 
 </div>
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/BuoyConceptB.png" />](https://egr314-team201.github.io/report/reportphotos/BuoyConceptB.png)
+[<img alt="" width="600" src="reportphotos/BuoyConceptB.png">](https://egr314-team201.github.io/report/reportphotos/BuoyConceptB.png)
 
 </div>
 
@@ -174,7 +174,7 @@ Glen Stevens was in charge of the Drone kit design concept. The idea was to crea
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/DroneMockup.jpg" />](https://egr314-team201.github.io/report/reportphotos/DroneMockup.jpg)
+[<img alt="" width="600" src="reportphotos/DroneMockup.jpg">](https://egr314-team201.github.io/report/reportphotos/DroneMockup.jpg)
 
 </div>
 
@@ -197,7 +197,7 @@ After our Checkpoint 1 presentation we decided to sit down and really evaluate h
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureK.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureK.jpg)
+[<img alt="" width="600" src="reportphotos/FigureK.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureK.jpg)
 
 </div>
 
@@ -212,7 +212,7 @@ After many prototypes we came up with our final selected design which can be see
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/BoxLid.jpg" />](https://egr314-team201.github.io/report/reportphotos/BoxLid.jpg)
+[<img alt="" width="600" src="reportphotos/BoxLid.jpg">](https://egr314-team201.github.io/report/reportphotos/BoxLid.jpg)
 
 </div>
 
@@ -226,7 +226,7 @@ After we decided on our idea we needed to determine the subsystems and how the i
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureL.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureL.jpg)
+[<img alt="" width="600" src="reportphotos/FigureL.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureL.jpg)
 
 </div>
 
@@ -258,7 +258,7 @@ These factors influenced our choice, along with the stated course project requir
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureM.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureM.jpg)
+[<img alt="" width="600" src="reportphotos/FigureM.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureM.jpg)
 
 </div>
 
@@ -282,7 +282,7 @@ After we determined these general requirements we each went to research our own 
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureN.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureN.jpg)
+[<img alt="" width="600" src="reportphotos/FigureN.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureN.jpg)
 
 </div>
 
@@ -294,7 +294,7 @@ We ultimately decided on this sensor in **Figure O** due to its large range of t
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/HumidityImage.png" />](https://egr314-team201.github.io/report/reportphotos/HumidityImage.png)
+[<img alt="" width="600" src="reportphotos/HumidityImage.png">](https://egr314-team201.github.io/report/reportphotos/HumidityImage.png)
 
 </div>
 
@@ -306,7 +306,7 @@ We ultimately decided on the sensor in **Figure P** due to its reliability. The 
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/MotorDriverImage.jpg" />](https://egr314-team201.github.io/report/reportphotos/MotorDriverImage.jpg)
+[<img alt="" width="600" src="reportphotos/MotorDriverImage.jpg">](https://egr314-team201.github.io/report/reportphotos/MotorDriverImage.jpg)
 
 </div>
   
@@ -318,7 +318,7 @@ We decided to use the same motor driver as we used in a previous assignment due 
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/MotorImage.png" />](https://egr314-team201.github.io/report/reportphotos/MotorImage.png)
+[<img alt="" width="600" src="reportphotos/MotorImage.png">](https://egr314-team201.github.io/report/reportphotos/MotorImage.png)
 
 </div>
 
@@ -331,7 +331,7 @@ We used this motor because we already have it. It uses 5v, which we can supply s
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/VoltageRegulator.png" />](https://egr314-team201.github.io/report/reportphotos/VoltageRegulator.png)
+[<img alt="" width="600" src="reportphotos/VoltageRegulator.png">](https://egr314-team201.github.io/report/reportphotos/VoltageRegulator.png)
 
 </div>
 
@@ -348,7 +348,7 @@ After we chose all of our components we needed to make sure that they fit the po
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureS.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureS.jpg)
+[<img alt="" width="600" src="reportphotos/FigureS.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureS.jpg)
 
 </div>
   
@@ -362,7 +362,7 @@ After we selected our components we then were able to create the schematic for o
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureT.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureT.jpg)
+[<img alt="" width="600" src="reportphotos/FigureT.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureT.jpg)
 
 </div>
 
@@ -370,7 +370,7 @@ After we selected our components we then were able to create the schematic for o
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureU.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureU.jpg)
+[<img alt="" width="600" src="reportphotos/FigureU.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureU.jpg)
 
 </div>
 
@@ -380,7 +380,7 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/teamschematic.png" />](https://egr314-team201.github.io/report/reportphotos/teamschematic.png)
+[<img alt="" width="600" src="reportphotos/teamschematic.png">](https://egr314-team201.github.io/report/reportphotos/teamschematic.png)
 
 </div>
 
@@ -388,7 +388,7 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureV.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureV.jpg)
+[<img alt="" width="600" src="reportphotos/FigureV.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureV.jpg)
 
 </div>
 
@@ -400,7 +400,7 @@ Our Final Team Schematic can be found in **Figure Y.**
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/Hardware.png" />](https://egr314-team201.github.io/report/reportphotos/Hardware.png)
+[<img alt="" width="600" src="reportphotos/Hardware.png">](https://egr314-team201.github.io/report/reportphotos/Hardware.png)
 
 </div>
 
@@ -410,7 +410,7 @@ We then had to reflect these changes in our final V2 Board. The front of our cad
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureZ.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureZ.jpg)
+[<img alt="" width="600" src="reportphotos/FigureZ.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureZ.jpg)
 
 </div>
 
@@ -418,7 +418,7 @@ We then had to reflect these changes in our final V2 Board. The front of our cad
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/FigureAA.jpg" />](https://egr314-team201.github.io/report/reportphotos/FigureAA.jpg)
+[<img alt="" width="600" src="reportphotos/FigureAA.jpg">](https://egr314-team201.github.io/report/reportphotos/FigureAA.jpg)
 
 </div>
 
@@ -428,7 +428,7 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 
 <div style="text-align: center"> 
   
-[<img alt="" width="600" src="reportphotos/PCBF.jpg" />](https://egr314-team201.github.io/report/reportphotos/PCBF.jpg)
+[<img alt="" width="600" src="reportphotos/PCBF.jpg">](https://egr314-team201.github.io/report/reportphotos/PCBF.jpg)
 
 </div>
 
