@@ -168,7 +168,7 @@ void main(void)
 ## Proportional Controller
 
 <p align="center">
-    <embed src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/.pdf " 
+    <embed src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/PRD.png " 
        type="application/pdf"
        width = "600"
        height = "600"/>
