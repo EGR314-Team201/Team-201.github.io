@@ -498,7 +498,7 @@ After the PCBs were printed we populated them with the components that we ordere
 
 <p align="center">Figure X: Team PCB</p>
 
-TALK ABOUT WHAT WE CHANGED
+
 
 Our Final Team Schematic can be found in **Figure Y.** 
 
@@ -565,6 +565,8 @@ After that we then soldered our components onto our team board. Our final V2 PCB
 </figure>
 
 <p align="center">Figure AC: Back of PCB</p>
+
+In a 2.0 the first thing we would like to implement is dual motor control. We would have the motor that we had in our final 1.0 but we would also include a fan. This would allow the box to clear out the excess heat and humidity and prevent further damage to the components. We would have had to get a whole new motor driver and also have reprogrammed the fan to work inside of there. It was definitely possible but not within the time and budget constraints. Another thing we would like to do is implement the RGB LED better. We would put it on the outside so if someone is watching they could see the indicator instead of it being covered by the dome. We would also like to get an additional temperature and humidity sensor for the outside. This is a way for us to be able to gauge the outside temperature and the inside temperature. These double alerts could help the device open when it is safe to and not have to manually reset. Another idea we had was to swap connectors with batteries. A problem we had was our battery kept falling out and we were unable to keep powering. We would like to just have power going through it without having to constantly connect the battery.
 
 ## Software Implementation:
 
