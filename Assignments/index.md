@@ -28,5 +28,5 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Hardware Proposal (5/1/2023)](https://egr314-team201.github.io/Assignments/Hardware-Proposal/)
 
-
+[Hardware Implementation (5/1/2023)](https://egr314-team201.github.io/Assignments/Hardware-Implementation/)
 
