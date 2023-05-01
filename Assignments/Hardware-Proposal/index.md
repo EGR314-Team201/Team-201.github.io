@@ -3,7 +3,7 @@ Title: Hardware Proposal
 ---
 # Hardware Proposal
 ## Bill of Materials
-
+<div class="scrollable">
 <table>
     <tr>
         <td>Part Name/Description</td>
@@ -386,6 +386,7 @@ Title: Hardware Proposal
         <td>7.5 in</td>
     </tr>
 </table>
+</div>
 
 ## Schematic
 
