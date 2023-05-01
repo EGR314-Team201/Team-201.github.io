@@ -26,3 +26,6 @@ Title: Hardware Proposal
 |L74A26-2-1-2WX, Battery Pack|1|$17.87|$17.87|$17.87|$17.87|Dantona Industries|L74A26-2-1-2WX|Link|Link|Digikey|3145-L74A26-2-1-2WX-ND|0| |3|2|7.5 in|
 
 ## Schematic
+
+<embed src="egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " type="application/pdf" />
+
