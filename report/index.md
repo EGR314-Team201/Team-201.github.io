@@ -601,6 +601,18 @@ Our Final Software Implementation can be found below in **Figure AE**
 
 <p align="center">Figure AE: Software Implementation</p>
 
+Our team greatly simplified the execution of our code to ensure functionality. Our team had trouble implementing the pathways described on the original proposal, so one of our main goals was to reduce the complexity of the main while loop. Listed below is our five biggest changes from Software Proposal:
+
+1. Simplifying Sensor Operation: The original software proposal featured splitting some functionality of motor control, reading, and printing values between the          Outputs block and the Humidity Block. Changing the diagram to keep the processes similar between the sensors improved readability and allowed for easier debugging. 
+
+2. Use of Interrupts: Our team focused on implementing interrupt functionality not to spin motors, but to handle recieving EUART data on the RX line. This allowed us      to easily implement bidirectional communication through MQTT on our final product.
+
+3. Simplifying Outputs: The outputs block had a large amount of information and checks within it. In our final realization of the software, we greatly simplified the      outputs block to two major checks: If the specific temperature and humidity values had been reached to begin spinning the motor, and then to check if the button had    been pressed.  
+
+4. d
+
+5. d 
+
 Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
 
 <figure class="image">  
