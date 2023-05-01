@@ -826,7 +826,7 @@ The tenth lesson we learned was that we needed to order more components. When we
 Overall we learned alot this semester and we will be taking this into our future capstone projects.
 
 
-## Reccomendations For Future EGR314 Students
+## Recomendations For Future EGR314 Students
 
 1. Practice and Continue to Learn in C. Practicing the basics will allow for less time to be wasted on trying to fix simple coding errors.
 
