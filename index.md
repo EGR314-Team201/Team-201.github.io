@@ -42,6 +42,18 @@ To view our Checkpoint Presentations click on the video below:
 
 **Pictures**
 
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="media/Team 1.jpg" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Checkpoint 2 Presentation</p>
+
 <style>
   .footer {
     display: none;
