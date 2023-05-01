@@ -9,13 +9,17 @@ Dr. Daniel Aukes
 
 Team 201
 
-Team Members: Finn Wentworth, Glen Stevens, Aiden Lynch, Richard Kovalcik
+Team Members: 
+[Aiden Lynch](https://www.linkedin.com/in/aiden-lynch-802b06116/)
+[Finnton Wentworth](https://www.linkedin.com/in/finnton-wentworth-8b2a65261/)
+[Glen Stevens](https://www.linkedin.com/in/glencstevens/)
+[Richard Kovalcik](https://www.linkedin.com/in/richard-kovalcik-49420b250/)
 
 ***
 
 **About Us:**
 
-Hi! We are a group of various degrees of engineering students at Arizona State University that are creatiing a Mobile Environmental Sensing Project. Throughout the semester we will be constantly updating this Github to reflect our progress throughout the Spring 2023 Semester. We have a variety of links below that will allow you to see the many assignments we have completed over the course of the semester.
+Hi! This is a comprehensive guide of everything we completed throughout the Spring 2023 semester in Embedded Systems and Design II. Our project was a Mobile Sensing System that was supposed to alert the user when ideal mold conditions were present. Our end goal was to present this at the innovation showcase at ASU’s Polytechnic Campus on 4/28/2023. We ended up successfully completing the project and presenting at the innovation showcase. Through this Github you can see all of our assignments and how our project progressed over the course of the semester. If you have any questions please do not hesitate to contact us through our LinkdIn's listed above.
 
 ***
 
