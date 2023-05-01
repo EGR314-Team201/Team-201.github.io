@@ -18,7 +18,7 @@ Title: Software Implementation
 
 <div style="text-align: center">  
 
-<img src="media/Topic Table.png" width="50%"><br>  
+<img src="https://egr314-team201.github.io/Assignments/Software-Implementation/assets/Topic Table.png" width="50%"><br>  
 
 </div>
 
