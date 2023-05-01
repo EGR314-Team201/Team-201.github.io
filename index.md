@@ -5,11 +5,13 @@ title: Home
 ### Environmental Condition Sensor Array
 
 ASU EGR314 12PM Spring 2023
+
 Dr. Daniel Aukes
 
 Team 201
 
 Team Members: 
+
 [Aiden Lynch](https://www.linkedin.com/in/aiden-lynch-802b06116/)
 
 [Finnton Wentworth](https://www.linkedin.com/in/finnton-wentworth-8b2a65261/)
@@ -37,6 +39,8 @@ To view our individual assignments click the link below:
 To view our Checkpoint Presentations click on the video below:
 
 [Presentation 1 (1/23/2023)](https://www.youtube.com/watch?v=C_jqC-kR5uQ)
+
+**Pictures**
 
 <style>
   .footer {
