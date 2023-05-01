@@ -619,7 +619,7 @@ Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configurat
 
 <div style="text-align: center">  
 
-<img src="media/FigureYactual.png" width="50%"><br>  
+<img src="media/MCC.png" width="50%"><br>  
 
 </div>
 
@@ -764,7 +764,7 @@ Our final Topic Table can be found in **Figure AG**
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="media/Topic Table.png" width="50%"><br>  
 
 </div>
 
