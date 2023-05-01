@@ -59,7 +59,7 @@ To view our Checkpoint Presentations click on the video below:
 
 <div style="text-align: center">  
 
-<img src="report/media/Team 2.jpeg" width="50%"><br>  
+<img src="report/media/Team2.jpeg" width="50%"><br>  
 
 </div>
 
@@ -72,7 +72,7 @@ To view our Checkpoint Presentations click on the video below:
 
 <div style="text-align: center">  
 
-<img src="report/media/Table 1.jpeg" width="50%"><br>  
+<img src="report/media/Table1.jpeg" width="50%"><br>  
 
 </div>
 
