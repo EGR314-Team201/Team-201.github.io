@@ -7,8 +7,8 @@ Title: Hardware Proposal
 <p align="center">
     <embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/BillOfMaterials.pdf " 
        type="application/pdf"
-       width = "700"
-       height = "700"/>
+       width = "600"
+       height = "600"/>
 </p>
 
 ## Schematic
@@ -16,7 +16,7 @@ Title: Hardware Proposal
 <p align="center">
     <embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " 
        type="application/pdf"
-       width = "700"
-       height = "700"/>
+       width = "600"
+       height = "600"/>
 </p>
 
