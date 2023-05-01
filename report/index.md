@@ -254,7 +254,7 @@ After our Checkpoint 1 presentation we decided to sit down and really evaluate h
 With this idea, we have all of our sensors on the elevated layer that collects the readings. When the humidity or temperature reaches a certain value, the motor in the center turns the dome so it is a completely sealed area and prevents any future damage to the device. The idea would be that this would be a stationary dome that would sit by a specific area and give constant readings about temperature and humidity. 
 
 Througout the following weeks we learned more about what we could and could not do with our design. We managed to have a similar idea with a revolving
-dome that would allow for protection from the outside environment. Additionally, we implemented an extrenal MQTT subscriber to fully highlight the capabilities of our final design.
+dome that would allow for protection from the outside environment. To acheive this we settled on a box capable of containing the PCB and a dome capable of protecting the hardware. The box containing the PCB was equipped with holes for mounting the push button, and wire management. Additionally, we included spacers on the bottom of the box to prevent the microchip from rubbing on the design. As for the dome, we settled on a friction fit attachment to the motor shaft so we could easily demonstrate and present of PCB design during the innovation showcase. Both of the components were printed using a resin printer with a fixed layer height of 0.05mm. One future idea would be to implement a flap instead of a revolving dome to decrease the overall footprint of the device.  
 
 After many prototypes we came up with our final selected design which can be seen in **Figure L**
 
