@@ -609,9 +609,17 @@ Our team greatly simplified the execution of our code to ensure functionality. O
 
 3. Simplifying Outputs: The outputs block had a large amount of information and checks within it. In our final realization of the software, we greatly simplified the      outputs block to two major checks: If the specific temperature and humidity values had been reached to begin spinning the motor, and then to check if the button had    been pressed.  
 
-4. d
+4. I/O Pin functionality: The final implementation of software heavily featured the use of our button pin, RA0. Adding functionality in code for the button helped our    team develop our final design and add an element of user interactivity to the project. 
 
-5. d 
+5. LED outputs: Our team greatly increased the visual feedback of our code by increasing the amount of LED outputs or blinking. Changing ‘operation’ in our code was      accompanied by a change in the output of the RGB LED, which greatly helped our team debug our code. 
+
+**Version 2.0**
+
+Our project evolved immensely throughout the semester, and the final presented code was somewhat removed from our team’s original vision. Our team focused on creating a demonstrable model for the Innovation showcase, complete with greater button functionality than originally planned. A version 2.0 of our design’s software would look to increase the independence of operation from the user, remove blocking code, and improve the implementation of the RX interrupt. 
+The button input on pin RA0 serves as a functional reset within the current design that was presented at the showcase. Within the current software, it allows the user to reset the position of the dome attached to the actuating motor, and resume reading new values within the main loop. This design would need to be changed to allow for remote reset for the original idea of a ‘place-and-forget’ design that our team ideated. Fixing this issue could be tied in with improving the RX interrupt. The current implementation of the RX interrupt simply toggles the green LED onboard when any message is received on the EUSART1 RX line. This could be changed to a set of conditionals to check for a variety of different received characters which could set the operation mode of the device. These modes could range from a standby mode, which could act as a low battery operation mode, stopping the transmission of messages, to a test mode for first set up and calibration.
+More interfacing with the RX interrupt and MQTT could be implemented with string parsing to allow for two different kinds of setpoint control to be sent in a message: temperature regulation utilizing the proposed internal temperature sensors as described in “hardware 2.0” earlier as well as separate a separate variable that sets the number of transmitted messages per day. Limiting the number of messages sent per day would improve the battery life of our design, while removing the transmission of redundant information for a low change environment that our product is designed for. 
+Greater use of interrupts would also remove the several while loops that our device sits in within the main “while(1)” loop that prevent updates to reading values or changing states. These are less relevant with the implementation of a once a day read, but as good practice these should be removed.
+
 
 Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configuration for our pin assignments, which describes the pin functionality necessary for our software to function.  
 
