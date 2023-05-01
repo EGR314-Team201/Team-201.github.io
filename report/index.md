@@ -629,11 +629,152 @@ Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configurat
 
 Our Final Code can be found below
 
-FINAL CODE
+```
+#include "mcc_generated_files/mcc.h"
+#include "mcc_generated_files/examples/i2c2_master_example.h"
+#include <stdio.h>
+#include <stdint.h>
+#include <stdbool.h>
+
+#define address 0x4C //Temp Address
+#define HumAddress    0x27 //Humidity Address
+#define HUMIDITYCONVERSION 70.57 //conversion factor for humidity values read from sensor 
+
+void RxReceive(void){ //Interrupt
+    EUSART1_Receive_ISR(); //If Message is sent to ESP32
+    for(int i = 0; i <= 5; i++){ //Flash it 5 Times
+       LEDG_Toggle();
+       __delay_ms(100); 
+    }
+    LEDG_SetLow();  
+}
+
+void main(void)
+{
+    //Initializations
+    SYSTEM_Initialize(); 
+    I2C2_Initialize();
+    EUSART1_Initialize();
+    SPI1_Initialize();
+    
+    //Variables
+    uint8_t temperature;
+    uint8_t humidity;
+    uint8_t dbuff[4];
+    uint16_t conversion = 0;
+    uint8_t dir1 = 0b11001111;
+    uint8_t dir2 = 0b11111101;
+    uint8_t stop = 0b11000000;
+    uint8_t receive;
+    
+    
+    double HumidityPer = 0; //Initialize Humidity
+    SPI1_Open(SPI1_DEFAULT); //Open SPI
+
+    //Interrupts
+    INTERRUPT_GlobalInterruptEnable(); //
+    INTERRUPT_PeripheralInterruptEnable();
+    EUSART1_SetRxInterruptHandler(RxReceive);
+    
+    while(1)
+    {
+            temperature = I2C2_Read1ByteRegister(address, 0x00); //Read Temp
+            float temperatureF = ((temperature*1.8) + 32); //Convert to F
+            
+            I2C2_ReadNBytes(0x27, dbuff, 1); //Read Humidity
+            __delay_ms(38);
+            I2C2_ReadNBytes(0x27, dbuff, 4);
+            conversion = (dbuff[0] << 8 | dbuff[1]) & 0x3fff; //Convert Humidity
+            __delay_ms(1000);
+            HumidityPer = (((float)conversion / (16382)) * HUMIDITYCONVERSION); //Convert To Percentage
+
+           
+
+            //Normal Mode Where LED Is ON    
+            if ((temperatureF <= 80 ) && (HumidityPer <= 55)) 
+            {
+                LEDR_SetLow();
+                LEDG_SetHigh();
+                LEDB_SetLow();
+                __delay_ms(50);
+                
+            }
+            //"Bad Mode" Where Conditions are not Ideal. Motor Will Activate
+            else while (((temperatureF >= 80) || (HumidityPer >= 55)) && Button_GetValue() == 0)
+            {
+                LEDG_SetLow();
+                LEDR_SetHigh(); 
+                
+                SS_pin_SetLow();
+                __delay_ms(1000);
+                SPI1_WriteByte(dir1);
+                __delay_ms(500);
+                SS_pin_SetHigh();
+                
+                __delay_ms(5000);
+                
+                SS_pin_SetLow();
+                __delay_ms(1000);
+                SPI1_WriteByte(stop);
+                __delay_ms(500);
+                SS_pin_SetHigh();
+               
+                while(Button_GetValue()  == 0){
+                LEDR_SetHigh(); 
+                __delay_ms(50);
+                LEDR_SetLow();
+                __delay_ms(50);
+                printf("Humidity = %2.2f \r \n", HumidityPer);
+                printf("TempF = %3.0f \r \n", temperatureF);
+                }
+                
+            }
+            printf("Humidity = %2.2f \r \n", HumidityPer);
+            printf("TempF = %3.0f \r \n", temperatureF);
+            SPI1_WriteByte(stop);
+            __delay_ms(1000);
+        
+        // Reset Where Button Is Pressed 
+        while (Button_GetValue() == 1)
+        {      
+            LEDR_SetLow();
+            LEDG_SetHigh();
+            __delay_ms(500);
+            LEDG_SetLow();
+         
+            SS_pin_SetLow();
+            __delay_ms(1000);
+           SPI1_WriteByte(dir2);
+            __delay_ms(500);
+            SS_pin_SetHigh();
+        }
+        //Stop the Motor and Restart Code
+            SS_pin_SetLow();
+            __delay_ms(1000);
+           SPI1_WriteByte(stop);
+            __delay_ms(500);
+            SS_pin_SetHigh();
+    }
+}
+```
+
+Our final Topic Table can be found in **Figure AG**
+
+<figure class="image">  
+
+<div style="text-align: center">  
+
+<img src="" width="50%"><br>  
+
+</div>
+
+</figure>
+
+<p align="center">Figure AG: Topic Table</p>
 
 ## System Verification:
 
-For final checkoffs we needed to verify that everything was working. We needed to verify that everything was reciving power and also that everything was able to be be programmed. After being to able to get everything working in tandem we were able to get fully verified and checked off. Our final System Verifcation Table can be found in **Figure AG**
+For final checkoffs we needed to verify that everything was working. We needed to verify that everything was reciving power and also that everything was able to be be programmed. After being to able to get everything working in tandem we were able to get fully verified and checked off. Our final System Verifcation Table can be found in **Figure AH**
 
 <figure class="image">  
 
@@ -645,7 +786,7 @@ For final checkoffs we needed to verify that everything was working. We needed t
 
 </figure>
 
-<p align="center">Figure AG: System Verification</p>
+<p align="center">Figure AH: System Verification</p>
 
 ## Lessons Learned:
 
