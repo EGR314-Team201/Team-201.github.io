@@ -3,6 +3,7 @@ Title: Hardware Proposal
 ---
 # Hardware Proposal
 ## Bill of Materials
+
 |Part Name/Description|Unit Quantity|Unit Prototype Cost|Total Prototype Cost|Unit Production Cost|Total Production Cost|Manufacturer|Manufacturer Part #|Vendor Link|Datasheet Link|Supplier|Supplier Part #|# Ordered|Date Ordered|# Received|Surplus|Schematic Reference Designators|
 |:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|:----|
 |PIC18F27Q10, SOIC, MCU|1|$1.54|$1.54|$1.17|$1.17|Microchip|PIC18F27Q10-I/SO|https://www.microchip.com/en-us/product/PIC18F27Q10#purchase-from-store|https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47Q10-Data-Sheet-40002043E.pdf|Microchip|PIC18F27Q10-I/SO|5|2/15/2023| |-1|U2|
@@ -27,5 +28,5 @@ Title: Hardware Proposal
 
 ## Schematic
 
-<embed src="egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " type="application/pdf" />
+<embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " type="application/pdf" />
 
