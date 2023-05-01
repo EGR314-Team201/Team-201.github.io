@@ -30,3 +30,6 @@ Below are the list of assignments we have completed over the course of the semes
 
 [Hardware Implementation (5/1/2023)](https://egr314-team201.github.io/Assignments/Hardware-Implementation/)
 
+[Software Implementation (5/1/2023)](https://egr314-team201.github.io/Assignments/Software-Implementation/)
+
+[System Verification (5/1/2023)](https://egr314-team201.github.io/Assignments/System-Verification/)
