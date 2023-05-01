@@ -28,5 +28,8 @@ Title: Hardware Proposal
 
 ## Schematic
 
-<embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " type="application/pdf" />
+<embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " 
+       type="application/pdf"
+       width = "1000"
+       height = "500"/>
 
