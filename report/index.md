@@ -262,7 +262,7 @@ After many prototypes we came up with our final selected design which can be see
 
 <div style="text-align: center">  
 
-<img src="BoxLid.jpg" width="50%"><br>  
+<img src="media/BoxLid.jpg" width="50%"><br>  
 
 </div>
 
