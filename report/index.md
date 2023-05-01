@@ -619,7 +619,7 @@ Shown below in **Figure AF: MCC Classic Pin Assignments**, is our MCC configurat
 
 <div style="text-align: center">  
 
-<img src="media/MCC.png" width="50%"><br>  
+<img src="media/MCC.png" width="80%"><br>  
 
 </div>
 
@@ -830,12 +830,10 @@ Overall we learned alot this semester and we will be taking this into our future
 ## Appendix A: Team Organization
 
 [Team Organization Assignment](https://egr314-team201.github.io/Assignments/TeamOrganization/)
-  
-  
+    
 ## Appendix B: User Needs and Benchmarking
 
 [User Needs and Benchmarking](https://egr314-team201.github.io/Assignments/User-Needs/)
-  
   
 ## Appendix C: Project Requirements Document
 
