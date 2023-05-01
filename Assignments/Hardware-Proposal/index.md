@@ -391,6 +391,6 @@ Title: Hardware Proposal
 
 <embed src="https://egr314-team201.github.io/Assignments/Hardware-Proposal/images/HardwareProposalSCHEMA.pdf " 
        type="application/pdf"
-       width = "1000"
+       width = "500"
        height = "500"/>
 
