@@ -588,19 +588,16 @@ The last and most important block of the Software Diagram is the Output loop. Th
 
 During all of these steps, the variables and information will be constantly printing to the ESP32, which will publish to a MQTT server,  and to an OLED screen so that the user will be constantly aware of what is happening. This connects back to the user needs part where users would like to know what the values are so they could analyze the trends. 
 
-TALK ABOUT WHAT WE CHANGED
+However, many changes were made from the original software proposal as our team progressed in our project. 
 
-Our Final Software Implementation can be found in **Figure AE**
+Our Final Software Implementation can be found below in **Figure AE**
 
-<figure class="image">  
-
-<div style="text-align: center">  
-
-<img src="" width="50%"><br>  
-
-</div>
-
-</figure>
+<p align="center">
+    <embed src="https://egr314-team201.github.io/report/media/SoftwareImplementation.pdf " 
+       type="application/pdf"
+       width = "600"
+       height = "600"/>
+</p>
 
 <p align="center">Figure AE: Software Implementation</p>
 
