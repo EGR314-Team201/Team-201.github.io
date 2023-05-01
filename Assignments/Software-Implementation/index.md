@@ -18,7 +18,7 @@ Title: Software Implementation
 
 <div style="text-align: center">  
 
-<img src="report/media/Topic Table.png" width="50%"><br>  
+<img src="media/Topic Table.png" width="50%"><br>  
 
 </div>
 
