@@ -46,7 +46,7 @@ To view our Checkpoint Presentations click on the video below:
 
 <div style="text-align: center">  
 
-<img src="media/Team 1.jpg" width="50%"><br>  
+<img src="media/Team 1.jpeg" width="50%"><br>  
 
 </div>
 
