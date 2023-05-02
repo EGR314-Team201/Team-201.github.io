@@ -522,7 +522,7 @@ We then had to reflect these changes in our final V2 Board. The front of our cad
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="media/FigureZ.png" width="50%"><br>  
 
 </div>
 
@@ -534,7 +534,7 @@ We then had to reflect these changes in our final V2 Board. The front of our cad
 
 <div style="text-align: center">  
 
-<img src="" width="50%"><br>  
+<img src="media/FigureAA.png" width="50%"><br>  
 
 </div>
 
