@@ -15,6 +15,37 @@ title: Report
 
 <p align="center"><strong>Submission Date: 5/1/2023</strong></p>
 
+## Table of Contents
+
+[Introduction](https://egr314-team201.github.io/report/#introduction)
+
+[Team Organization](https://egr314-team201.github.io/report/#team-organization)
+
+[User Needs](https://egr314-team201.github.io/report/#user-needs)
+
+[Design Ideation](https://egr314-team201.github.io/report/#design-ideation)
+
+[Selected Design](https://egr314-team201.github.io/report/#selected-design)
+
+[Block Diagram](https://egr314-team201.github.io/report/#block-diagram)
+
+[Microcontroller Selection](https://egr314-team201.github.io/report/#microcontroller-selection)
+
+[Component Selection](https://egr314-team201.github.io/report/#component-selection)
+
+[Hardware Implementation](https://egr314-team201.github.io/report/#hardware-implementation)
+
+[Software Implementation](https://egr314-team201.github.io/report/#software-implementation)
+
+[System Verification](https://egr314-team201.github.io/report/#system-verification)
+
+[Lessons Learned](https://egr314-team201.github.io/report/#lessons-learned)
+
+[Reccomedations for Future Students](https://egr314-team201.github.io/report/#recomendations-for-future-egr314-students)
+
+[Appendices](https://egr314-team201.github.io/report/#appendix-a-team-organization)
+
+
 ## Introduction
 
 Our team seeks to design a weather data collection device able to collect a variety of weather-related data such as temperature, humidity, atmospheric pressure, and wind speed through the use of surface mount sensors utilizing a variety of communication protocols. Throughout the semester we will be custom-creating a schematic and a PCB and having it manufactured. We will be using programs such as Cadence and Github to create our deliverables. The completed deliverable will be presented at the innovation showcase to a variety of industry representatives.
@@ -873,3 +904,5 @@ Overall we learned alot this semester and we will be taking this into our future
 ## Appendix H: Power Budget
 
 [Power Budget](https://egr314-team201.github.io/Assignments/power-budget/)
+
+<style> .sidebar { display: none; } </style> 
